@@ -1,0 +1,5 @@
+orig/
+build/
+*.obj
+__pycache__/
+status/status.csv.lock

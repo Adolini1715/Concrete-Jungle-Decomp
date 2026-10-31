@@ -1,0 +1,774 @@
+va,unit,cls,mine,orig,sim,name
+000130f0,EXItemAnimator_AnimModifier,STRUCT,84,32,0.45,public: static class EXItemAnimator_AnimModifier * __cdecl EXItemAnimator_AnimModifier::NewItem(void)
+00015dc0,Actor,SCHED,160,160,0.98,"public: signed char __thiscall Actor::IsFacingYRot(float, float)"
+000178f0,Actor,STRUCT_CLOSE,91,96,0.81,public: int __thiscall Actor::GetWarcrySFX(void)
+00017950,Actor,STRUCT_CLOSE,140,144,0.93,public: unsigned int __thiscall Actor::RemapSFX(int)
+00017c00,Actor,STRUCT_CLOSE,91,96,0.88,public: signed char __thiscall Actor::HasRagDollComeToRest(void)
+00018030,Actor,STRUCT,50,128,0.51,public: static void __cdecl Actor::VehicleRemoved(class Vehicle *)
+00019a50,Actor,STRUCT_CLOSE,68,80,0.93,public: void __thiscall Actor::ResetCivilianAttackVO(void)
+0001a610,Actor,REGALLOC,14,16,1.00,public: signed char __thiscall Actor::NeedsDelete(void)
+000229c0,Actor,STRUCT_CLOSE,202,192,0.93,"public: signed char __thiscall Actor::AllyNear(float, signed char)"
+00023780,Actor,REGALLOC,81,96,1.00,"public: signed char __thiscall Actor::GotoCustomerPOI(int, int)"
+000237e0,Actor,REGALLOC,81,96,1.00,"public: signed char __thiscall Actor::GotoVendorPOI(int, int)"
+00025a50,Actor,SCHED,125,128,0.87,public: void __thiscall Actor::CheckSeeBody(class Actor *)
+0002ceb0,Actor,STRUCT_CLOSE,192,192,0.94,public: signed char __thiscall Actor::DoNonCriticalUpdate(void)
+0002d250,Actor,STRUCT_CLOSE,1883,2080,0.91,public: virtual signed char __thiscall Actor::DoUpdate(void)
+00030530,ActorCarry,STRUCT,146,304,0.65,public: class EXVector __thiscall ActorCarryable::GetWorldPos(void)
+00036b00,ActorCity,STRUCT_CLOSE,975,976,0.93,signed char __cdecl STATE_FS_BreakAndEnterAccomplice(class StateMachine &)
+000373e0,ActorCity,STRUCT_CLOSE,1235,1232,0.96,signed char __cdecl STATE_FS_Chat(class StateMachine &)
+00037d80,ActorCity,STRUCT_CLOSE,1156,1168,0.92,signed char __cdecl STATE_FS_Hustler(class StateMachine &)
+00039210,ActorCity,STRUCT_CLOSE,687,688,0.91,signed char __cdecl STATE_FS_BuyHookerAlt(class StateMachine &)
+0003ad90,ActorCity,STRUCT_CLOSE,767,784,0.94,signed char __cdecl STATE_FS_GoDrinking(class StateMachine &)
+0003b9d0,ActorCity,STRUCT_CLOSE,1240,1248,0.93,signed char __cdecl STATE_FS_SmokingBreak(class StateMachine &)
+0003ec40,ActorCity,STRUCT_CLOSE,1059,1056,0.92,signed char __cdecl STATE_FS_BankRobberyAccomplice(class StateMachine &)
+0003f880,ActorCity,STRUCT_CLOSE,1187,1184,0.95,signed char __cdecl STATE_FS_ExtortionAccomplice(class StateMachine &)
+000444c0,ActorCity,STRUCT_CLOSE,1163,1184,0.97,signed char __cdecl STATE_FS_TrampGather(class StateMachine &)
+00044960,ActorCity,STRUCT_CLOSE,1003,1024,0.96,signed char __cdecl STATE_FS_Trashcan(class StateMachine &)
+00045fd0,ActorCity,STRUCT_CLOSE,807,816,0.96,signed char __cdecl STATE_FS_CrowdCircle(class StateMachine &)
+00046300,ActorCity,STRUCT_CLOSE,991,1024,0.91,signed char __cdecl STATE_FS_Reprimand(class StateMachine &)
+00046700,ActorCity,STRUCT_CLOSE,955,960,0.96,signed char __cdecl STATE_FS_CheckpointCharlie(class StateMachine &)
+00046da0,ActorCombat,REGALLOC,81,96,1.00,"public: signed char __thiscall Actor::CanGetToVendorPOI(int, int)"
+00047280,ActorCombat,REGALLOC,595,608,1.00,"int __cdecl Actor_IsPredatorCloser(class Actor &, int)"
+000475d0,ActorCombat,SCHED,70,80,0.95,"signed char __cdecl Actor_DelayedSightToTarget(class Actor &, int &, int &, int)"
+00047620,ActorCombat,STRUCT,719,896,0.83,"signed char __cdecl Actor_CheckForAttack(class Actor &, struct StructMsg_IncomingAttack *)"
+000479a0,ActorCombat,STRUCT,606,768,0.81,"class EXVector __cdecl GetApproachPosition(int, class EXVector const &)"
+00047ca0,ActorCombat,SCHED,507,512,0.88,void __cdecl SetOffsetVector(class EXVector &)
+00047ef0,ActorCombat,STRUCT_CLOSE,181,208,0.77,"class EXVector __cdecl GetDelayedTarget(class Actor &, class EXVector const &)"
+00047fc0,ActorCombat,STRUCT_CLOSE,1874,1856,0.95,"void __cdecl StrikeCharacter(class StateMachine &, signed char, int &, class WeaponProfile *, signed char, int)"
+00048700,ActorCombat,STRUCT_CLOSE,972,1008,0.90,signed char __cdecl STATE_Dodge(class StateMachine &)
+00048af0,ActorCombat,STRUCT,289,352,0.92,signed char __cdecl STATE_KnockBackRussian(class StateMachine &)
+00048c50,ActorCombat,STRUCT,292,352,0.92,signed char __cdecl STATE_KnockBackZombie(class StateMachine &)
+00048db0,ActorCombat,STRUCT,289,352,0.92,signed char __cdecl STATE_KnockBackMonsterSquad(class StateMachine &)
+00048fc0,ActorCombat,STRUCT,2176,2512,0.72,signed char __cdecl STATE_MonsterSquad_Freeze(class StateMachine &)
+00049990,ActorCombat,STRUCT,295,352,0.92,signed char __cdecl STATE_KnockBackHunter1(class StateMachine &)
+00049dd0,ActorCombat,STRUCT_CLOSE,922,912,0.93,signed char __cdecl STATE_UlysesPredOnHead(class StateMachine &)
+0004a160,ActorCombat,STRUCT,475,656,0.64,class EXVector __cdecl GetUlyssesAimPos(class StateMachine &)
+0004a3f0,ActorCombat,STRUCT_CLOSE,613,688,0.88,signed char __cdecl STATE_UlyssesStandAlert(class StateMachine &)
+0004a940,ActorCombat,STRUCT,1408,1728,0.82,signed char __cdecl STATE_HitByUnknownMine(class StateMachine &)
+0004b000,ActorCombat,SCHED,785,816,0.92,signed char __cdecl STATE_CaptivePredHanging(class StateMachine &)
+0004b330,ActorCombat,STRUCT_CLOSE,1287,1376,0.90,signed char __cdecl STATE_WheresDaBeef(class StateMachine &)
+0004b9f0,ActorCombat,STRUCT_CLOSE,832,944,0.88,signed char __cdecl STATE_WeaponTest(class StateMachine &)
+0004c0a0,ActorCombat,STRUCT_CLOSE,619,656,0.86,signed char __cdecl STATE_ScaredOfPredRoar(class StateMachine &)
+0004c810,ActorCombat,STRUCT_CLOSE,352,384,0.78,"int __cdecl GetNormalStrikeAnim(class StateMachine &, class WeaponProfile *)"
+0004c990,ActorCombat,STRUCT_CLOSE,406,416,0.83,"int __cdecl GetStrikeAnim(class StateMachine &, class WeaponProfile *, int, int *)"
+0004cb70,ActorCombat,STRUCT_CLOSE,1013,1040,0.93,"int __cdecl Actor_ChooseTarget(class Actor &, signed char, float, int)"
+0004d090,ActorCombat,STRUCT_CLOSE,1325,1328,0.92,"void __cdecl ThrowGrenade(class StateMachine &, class EXVector, int, signed char)"
+0004d660,ActorCombat,STRUCT_CLOSE,1220,1264,0.89,signed char __cdecl STATE_QuickEvadePlayerWithGunButt(class StateMachine &)
+0004dd40,ActorCombat,STRUCT_CLOSE,992,1024,0.94,signed char __cdecl STATE_BlockServ(class StateMachine &)
+0004e140,ActorCombat,REGALLOC,1062,1072,1.00,signed char __cdecl STATE_Block(class StateMachine &)
+0004e570,ActorCombat,STRUCT_CLOSE,578,640,0.86,signed char __cdecl STATE_KnockBackServ(class StateMachine &)
+0004e7f0,ActorCombat,STRUCT_CLOSE,436,448,0.91,signed char __cdecl STATE_PullOutWeapon(class StateMachine &)
+0004e9b0,ActorCombat,STRUCT_CLOSE,436,448,0.93,signed char __cdecl STATE_PullOutWeaponForActor(class StateMachine &)
+0004eb70,ActorCombat,STRUCT_CLOSE,456,464,0.92,signed char __cdecl STATE_SwapWeaponHands(class StateMachine &)
+0004ed40,ActorCombat,STRUCT_CLOSE,456,464,0.94,signed char __cdecl STATE_SwapWeaponHandsActorCombat(class StateMachine &)
+0004ef10,ActorCombat,STRUCT_CLOSE,1020,1072,0.93,signed char __cdecl STATE_RunAtAndStrike(class StateMachine &)
+0004f340,ActorCombat,STRUCT_CLOSE,1031,1120,0.91,signed char __cdecl STATE_ZombieAttack(class StateMachine &)
+0004fb30,ActorCombat,STRUCT_CLOSE,1131,1200,0.85,signed char __cdecl STATE_RoninPredAttackLeapBack(class StateMachine &)
+0004ffe0,ActorCombat,STRUCT_CLOSE,5152,5328,0.80,signed char __cdecl STATE_RoninPredAttack(class StateMachine &)
+000514b0,ActorCombat,STRUCT_CLOSE,1110,1152,0.93,signed char __cdecl STATE_Brute_FleeToLoc18(class StateMachine &)
+00051930,ActorCombat,STRUCT_CLOSE,2887,2992,0.83,signed char __cdecl STATE_ZombieBoss(class StateMachine &)
+000524e0,ActorCombat,STRUCT_CLOSE,624,624,0.97,signed char __cdecl STATE_Hunter2_Goto(class StateMachine &)
+00052750,ActorCombat,STRUCT_CLOSE,5467,5696,0.76,signed char __cdecl STATE_Hunter2(class StateMachine &)
+00053d90,ActorCombat,STRUCT_CLOSE,2147,2288,0.80,signed char __cdecl STATE_MonsterSquad_Sniper(class StateMachine &)
+00054680,ActorCombat,STRUCT_CLOSE,3387,3664,0.80,signed char __cdecl STATE_MonsterSquad_Plasma(class StateMachine &)
+000554d0,ActorCombat,STRUCT_CLOSE,2351,2544,0.79,signed char __cdecl STATE_MonsterSquad_Missiles(class StateMachine &)
+00055ec0,ActorCombat,STRUCT_CLOSE,4883,5328,0.83,signed char __cdecl STATE_MafiaBoss(class StateMachine &)
+00057390,ActorCombat,STRUCT_CLOSE,1903,2000,0.87,signed char __cdecl STATE_MafiaBoss_NOT_GREAT(class StateMachine &)
+00057b60,ActorCombat,STRUCT,3172,3376,0.73,signed char __cdecl STATE_Hunter1_PredAttack(class StateMachine &)
+00058890,ActorCombat,STRUCT_CLOSE,2812,2832,0.85,signed char __cdecl STATE_BrutePredAttack(class StateMachine &)
+000593a0,ActorCombat,STRUCT_CLOSE,1892,2000,0.87,signed char __cdecl STATE_BrutePredAttack_OLD(class StateMachine &)
+00059b70,ActorCombat,STRUCT_CLOSE,1528,1632,0.89,signed char __cdecl STATE_ChargeAttack(class StateMachine &)
+0005a1d0,ActorCombat,STRUCT_CLOSE,3276,3456,0.86,signed char __cdecl STATE_RussianBossPredAttack(class StateMachine &)
+0005af50,ActorCombat,STRUCT_CLOSE,3460,3648,0.85,signed char __cdecl STATE_ServBossPredAttack(class StateMachine &)
+0005bd90,ActorCombat,STRUCT_CLOSE,1851,2016,0.88,signed char __cdecl STATE_AttackPredBruno_UseLoc(class StateMachine &)
+0005c570,ActorCombat,STRUCT_CLOSE,4661,5088,0.90,signed char __cdecl STATE_Hunter_Sniper_1(class StateMachine &)
+0005d950,ActorCombat,STRUCT_CLOSE,4609,5008,0.88,signed char __cdecl STATE_AttackPredArmedVantage(class StateMachine &)
+0005ece0,ActorCombat,STRUCT_CLOSE,1893,1984,0.80,signed char __cdecl STATE_ShootAtCar(class StateMachine &)
+0005f4a0,ActorCombat,STRUCT_CLOSE,2045,2192,0.82,signed char __cdecl STATE_SniperStand(class StateMachine &)
+0005fd30,ActorCombat,STRUCT,6098,6688,0.75,signed char __cdecl STATE_SniperMove(class StateMachine &)
+00061750,ActorCombat,STRUCT_CLOSE,4022,4208,0.91,signed char __cdecl STATE_FightActorArmed(class StateMachine &)
+000627c0,ActorCombat,STRUCT_CLOSE,575,576,0.95,signed char __cdecl STATE_FS_ThrowGrenadeForwards(class StateMachine &)
+00062a00,ActorCombat,STRUCT_CLOSE,4930,5184,0.85,signed char __cdecl STATE_NewUlysesAttackPred(class StateMachine &)
+000644e0,ActorCombat,STRUCT_CLOSE,2224,2400,0.91,signed char __cdecl STATE_Ulysses_Follow_Path_And_Kick_Ass(class StateMachine &)
+00064e40,ActorCombat,STRUCT_CLOSE,1387,1456,0.95,signed char __cdecl STATE_Ulysses_Stand_And_Shoot(class StateMachine &)
+000653f0,ActorCombat,STRUCT_CLOSE,1350,1376,0.95,signed char __cdecl STATE_Ulysses_Follow_Path(class StateMachine &)
+00065950,ActorCombat,STRUCT_CLOSE,810,816,0.94,signed char __cdecl STATE_HoldItemTest(class StateMachine &)
+00065c80,ActorCombat,STRUCT,2530,3408,0.66,signed char __cdecl STATE_GotoLocationViaEvadePoints(class StateMachine &)
+00066b50,ActorCombat,SCHED,1208,1216,1.00,signed char __cdecl STATE_PredatorFollowThePlayer(class StateMachine &)
+00069f90,ActorCombat,STRUCT_CLOSE,1112,1248,0.93,signed char __cdecl STATE_KnockBack(class StateMachine &)
+0006a550,ActorCombat,STRUCT_CLOSE,2647,2672,0.84,signed char __cdecl STATE_FightActor(class StateMachine &)
+0006b060,ActorCombat,STRUCT_CLOSE,8769,9104,0.84,signed char __cdecl STATE_AttackPredArmed(class StateMachine &)
+0006d3f0,ActorCombat,STRUCT_CLOSE,6252,6832,0.87,signed char __cdecl STATE_AttackPred(class StateMachine &)
+0006eea0,ActorCombat,STRUCT_CLOSE,2193,2448,0.85,signed char __cdecl STATE_ShootForwards(class StateMachine &)
+0006f830,ActorCombat,STRUCT_CLOSE,2989,3088,0.87,signed char __cdecl STATE_FightActorArmedVantage(class StateMachine &)
+00070440,ActorCombat,STRUCT_CLOSE,1932,2224,0.84,signed char __cdecl STATE_LookAroundAlerted(class StateMachine &)
+00071090,ActorCombat,SCHED,349,352,0.99,signed char __cdecl STATE_PanicThenAttackPred(class StateMachine &)
+00072f10,ActorUtil,SCHED,126,128,0.97,public: void __thiscall EXMaths::mat_44::set_rotate_y(float)
+00073680,ActorLocation,STRUCT,364,480,0.82,public: class EXTrigger & __thiscall EXTrigger::operator=(class EXTrigger const &)
+00074af0,ActorLocation,STRUCT_CLOSE,287,304,0.98,"signed char __cdecl POI_CustomerUnbind(int, int)"
+000771c0,ActorLocation,STRUCT_CLOSE,584,592,0.85,"int __cdecl POI_GetNearestType(class EXVector const &, int, int, int, signed char, signed char)"
+00077720,ActorLocation,STRUCT_CLOSE,647,656,0.98,"int __cdecl POI_GetNearestFlag(class EXVector const &, int, int, int, signed char, signed char, float)"
+00078a40,ActorLocation,STRUCT_CLOSE,460,464,0.97,"int __cdecl POI_GetRandomType(int, int, int, signed char, signed char)"
+0007a3e0,ActorMission,STRUCT_CLOSE,662,672,0.94,signed char __cdecl STATE_MissionSuicide(class StateMachine &)
+0007a680,ActorMission,STRUCT_CLOSE,671,672,0.93,signed char __cdecl STATE_MissionPoliceIdle(class StateMachine &)
+0007b850,ActorMission,STRUCT_CLOSE,883,880,0.92,signed char __cdecl STATE_Distraction_PoolTable(class StateMachine &)
+0007e3c0,ActorSpecial,STRUCT,95,112,0.87,signed char __cdecl ActorSpecial_RegisterPlayerKill(class Actor *)
+00080150,ActorStateMachine,SCHED,96,96,0.76,public: __thiscall StateMachine::StateMachine(void)
+00080690,ActorTextureSwap,SCHED,27,32,0.91,public: __thiscall ActorTextureSwapItem::ActorTextureSwapItem(struct ActorTextureSwapRow *)
+00080be0,ActorTextureSwap,STRUCT,71,32,0.42,public: void * __thiscall ActorTextureSwapEntry::`scalar deleting dtor'(unsigned int)
+00080c30,ActorTextureSwap,STRUCT_CLOSE,1456,1472,0.96,public: static void __cdecl ActorTextureSwap::Apply(class Actor *)
+00081580,ActorTextureSwap,SCHED,545,560,0.99,public: static void __cdecl ActorTextureSwap::PostLoadInit(void)
+00081b00,ActorTimeTable,STRUCT_CLOSE,272,272,0.98,int __cdecl TimeTable_GetRandomProfile(struct TimeTableHeader *)
+000839b0,ActorUtil,SCHED,210,224,0.93,"class EXVector __cdecl AU_SnapRelativeToLoc(class XNavLocation &, class EXVector const &, int *)"
+00083b90,ActorUtil,SCHED,214,208,0.98,class EXVector __cdecl Player_GetHeadPos(void)
+00083d90,ActorUtil,STRUCT,621,736,0.82,"signed char __cdecl AU_VecAngleInside(class EXVector const &, class EXVector const &, class EXVector const &, float)"
+00084450,ActorUtil,STRUCT_CLOSE,340,336,0.93,"void __cdecl AU_PlayerForceSightingInArea(class EXVector const &, float)"
+00084600,ActorUtil,SCHED,311,320,0.99,"signed char __cdecl AU_PlayerObstructs(class StateMachine &, class EXVector, float)"
+00084740,ActorUtil,STRUCT_CLOSE,1084,1216,0.93,signed char __cdecl STATE_KnockBackwardAndLive(class StateMachine &)
+00084ce0,ActorUtil,STRUCT_CLOSE,1072,1072,0.96,signed char __cdecl STATE_HitReactKnockedOver(class StateMachine &)
+00085110,ActorUtil,STRUCT_CLOSE,565,544,0.88,signed char __cdecl STATE_Barge(class StateMachine &)
+000854f0,ActorUtil,STRUCT_CLOSE,1004,992,0.89,signed char __cdecl STATE_DeathBoss(class StateMachine &)
+00085b30,ActorUtil,SCHED,63,64,0.96,signed char __cdecl STATE_AttackPlayerForever(class StateMachine &)
+000869c0,ActorUtil,STRUCT,346,544,0.78,"class EXQuaternion __cdecl AU_InterpQuat(class EXQuaternion &, class EXQuaternion &, float)"
+00086fd0,ActorUtil,STRUCT_CLOSE,744,800,0.88,signed char __cdecl STATE_MonsterJump(class StateMachine &)
+000874d0,ActorUtil,STRUCT_CLOSE,222,240,0.93,signed char __cdecl STATE_NotReallyDead(class StateMachine &)
+000875c0,ActorUtil,SCHED,1260,1264,0.92,signed char __cdecl STATE_FadeOutDead(class StateMachine &)
+00087ab0,ActorUtil,STRUCT_CLOSE,1112,1056,0.89,signed char __cdecl STATE_PickUpDroppedItem(class StateMachine &)
+00087ed0,ActorUtil,STRUCT_CLOSE,1463,1456,0.93,signed char __cdecl STATE_GotoLocationQueue(class StateMachine &)
+000886b0,ActorUtil,STRUCT_CLOSE,392,400,0.94,"void __cdecl SendMsg_HealingRoar(class EXVector const &, float)"
+00088b90,ActorUtil,STRUCT_CLOSE,765,784,0.93,signed char __cdecl STATE_DeathBullet(class StateMachine &)
+00088f90,ActorUtil,STRUCT_CLOSE,3225,3216,0.84,signed char __cdecl STATE_GotoLocation(class StateMachine &)
+00089c20,ActorUtil,STRUCT_CLOSE,167,176,0.96,signed char __cdecl STATE_MonsterTest(class StateMachine &)
+00089cd0,ActorUtil,STRUCT_CLOSE,561,576,0.86,signed char __cdecl AR_ReleaseFromPredator(class StateMachine &)
+0008a030,ActorUtil,STRUCT_CLOSE,1626,1680,0.94,"signed char __cdecl AR_HitRagdoll(class StateMachine &, struct StructMsg_AttackedByPredator *, signed char)"
+0008a990,ActorUtil,SCHED,302,304,0.99,"signed char __cdecl AR_HitLoseHeadRagdoll(class StateMachine &, struct StructMsg_AttackedByPredator *)"
+0008aac0,ActorUtil,STRUCT_CLOSE,1297,1488,0.77,"signed char __cdecl AU_HandleIncomingAttack(class StateMachine &, struct StructMsg_IncomingAttack *)"
+0008b090,ActorUtil,STRUCT,662,800,0.88,signed char __cdecl STATE_KnockBackwardAndDie(class StateMachine &)
+0008c1c0,ActorUtil,STRUCT_CLOSE,283,288,0.87,signed char __cdecl STATE_StealthDeathInit(class StateMachine &)
+0008c440,ActorUtil,STRUCT_CLOSE,528,544,0.89,signed char __cdecl STATE_PlayerControlDeath(class StateMachine &)
+0008c7c0,ActorUtil,STRUCT_CLOSE,1336,1360,0.90,"signed char __cdecl AR_ReactFromHit(class StateMachine &, class EXVector const &, enum KnockOver)"
+0008ce60,ActorUtil,STRUCT_CLOSE,592,608,0.88,"signed char __cdecl AU_HandlePlayerAttacks_Ulysses(class StateMachine &, struct StructMsg_AttackedByPredator *)"
+0008dbd0,ActorUtil,STRUCT_CLOSE,1051,1056,0.92,"int __cdecl AU_FindRunAwayPoint(class StateMachine &, int, int, int, signed char)"
+0008dff0,ActorUtil,STRUCT_CLOSE,1252,1264,0.93,"int __cdecl AU_FindHealPoint(class StateMachine &, int, int, signed char)"
+0008f300,ActorUtil,STRUCT_CLOSE,935,1072,0.88,signed char __cdecl STATE_RagdollJump(class StateMachine &)
+00090060,ActorUtil,STRUCT_CLOSE,4127,4272,0.85,"signed char __cdecl AU_HandlePlayerAttacks(class StateMachine &, struct StructMsg_AttackedByPredator *)"
+00091110,ActorUtil,STRUCT_CLOSE,494,512,0.96,signed char __cdecl STATE_HitByVehicle(class StateMachine &)
+00091310,ActorUtil,STRUCT,398,480,0.72,signed char __cdecl STATE_NudgeCloaked(class StateMachine &)
+00091770,ActorUtil,REGALLOC,550,560,1.00,signed char __cdecl STATE_ElectroSquad(class StateMachine &)
+00094160,ActorUtil,STRUCT_CLOSE,1106,1120,0.94,signed char __cdecl STATE_PanicBlind(class StateMachine &)
+000945c0,ActorUtil,STRUCT_CLOSE,902,912,0.96,signed char __cdecl STATE_SeenBody_Panic(class StateMachine &)
+00096060,ActorUtil,STRUCT_CLOSE,1375,1344,0.92,signed char __cdecl STATE_CrimePrepare(class StateMachine &)
+000969b0,ActorUtil,STRUCT_CLOSE,1489,1504,0.84,signed char __cdecl STATE_GotoPosition(class StateMachine &)
+00098320,ActorUtil,STRUCT_CLOSE,1911,1888,0.92,signed char __cdecl STATE_WalkAttractedToPlayer(class StateMachine &)
+00098d50,ActorUtil,STRUCT_CLOSE,1174,1184,0.96,signed char __cdecl STATE_PanicStand(class StateMachine &)
+0009ba30,ActorUtil,STRUCT_CLOSE,943,944,0.96,signed char __cdecl STATE_WalkToLocationCarry(class StateMachine &)
+000aa230,ActorUtil,SCHED,482,496,0.88,void __cdecl AU_SpawnDebugActor(int)
+000aa7a0,ActorUtil,STRUCT_CLOSE,1367,1328,0.92,signed char __cdecl STATE_AttackPlayerOnSight(class StateMachine &)
+000aacd0,ActorUtil,STRUCT_CLOSE,1279,1232,0.90,signed char __cdecl STATE_DefaultIdle(class StateMachine &)
+000ab1a0,ActorUtil,STRUCT_CLOSE,1219,1216,0.91,signed char __cdecl STATE_PlayStartAnim(class StateMachine &)
+000ab7a0,ActorUtil,STRUCT_CLOSE,1267,1264,0.89,signed char __cdecl STATE_SeenBody_Help(class StateMachine &)
+000abf30,ActorUtil,STRUCT_CLOSE,823,832,0.92,signed char __cdecl STATE_Police_Patrol(class StateMachine &)
+000acf50,AIControl,STRUCT_CLOSE,1538,1520,0.86,public: signed char __thiscall AIControl::Update(void)
+000adbf0,AIFormation,STRUCT_CLOSE,341,368,0.90,"public: void __thiscall CFormationItem::CalcItemPos(int, float)"
+000add60,AIFormation,SCHED,935,944,1.00,public: void __thiscall CFormation::Update(void)
+000ae2a0,AIFormation,STRUCT_CLOSE,109,112,0.90,"public: void __thiscall CFormation::GetOriginAndAngle(class EXVector &, class EXVector &)"
+000ae360,AIFormation,STRUCT,352,272,0.73,public: float __thiscall CFormation::GetDistSqClosestActor(void)
+000ae470,AIFormation,SCHED,355,368,0.99,public: class EXVector __thiscall CFormationItem::GetWorldPos(void) const
+000af500,Text,REGALLOC,36,48,1.00,public: void __thiscall FEText::HandleMemCompaction(void)
+000afcc0,XGamePad,STRUCT_CLOSE,499,512,0.95,public: class EXString & __thiscall FEText::Get(unsigned int)
+000b0060,App,SCHED,1366,1376,0.99,public: virtual signed char __thiscall XApp::InitGame(void)
+000b1600,App,STRUCT_CLOSE,9360,9312,0.93,public: virtual void __thiscall XApp::UpdateGame(void)
+000b3f20,Avoid,STRUCT,74,80,0.65,"void __cdecl SetVector_RotateY(class EXVector &, float, float)"
+000b40e0,Avoid,STRUCT_CLOSE,229,240,0.79,"public: void __thiscall CObstacle::Init(class EXVector const &, float const &, float, float, float)"
+000b5a70,Bullet,STRUCT_CLOSE,184,192,0.89,void __cdecl DoImpactSFX(struct EXRayCastTemp *)
+000b7bb0,Bullet,STRUCT_CLOSE,255,256,0.99,protected: float __thiscall XItemHandler_Bullet::CalcDamage(void)
+000beb40,Bullet_Explosion,SCHED,386,400,0.97,public: virtual signed char __thiscall XItemHandler_ScriptBase::DoUpdate(void)
+000c18b0,Camera,STRUCT,61,160,0.52,public: float __thiscall XItemHandler_Camera::Angle(void)
+000d0c20,FX_CCTV,SCHED,54,64,0.93,public: __thiscall FERadarInfo::FERadarInfo(void)
+000d1950,FEHud,STRUCT,122,128,0.74,public: class EXRect __thiscall FEHud::GetRadarRect(struct FERadarInfo &)
+000d26f0,FEHud,SCHED,431,432,0.98,private: __thiscall FEHud::FEHud(void)
+000d2c50,FEHud,STRUCT_CLOSE,276,256,0.76,"public: signed char __thiscall FEHud::WeaponArrayCreate(unsigned int *, unsigned int)"
+000d2d50,FEHud,STRUCT_CLOSE,328,320,0.81,"public: signed char __thiscall FEHud::WeaponArrayDel(unsigned int, enum FEWeaponCat::Flags)"
+000daf40,FEObject,SCHED,56,64,0.95,public: class EXRect __thiscall FEObject::OutRect(class EXRect)
+000db240,FEMainMenu,STRUCT,59,80,0.67,public: virtual class ex::RGBA __thiscall FELayout::MathmosLinkColour(void)
+000dc200,FELayout,SCHED,241,256,0.95,public: virtual class FEObject * __thiscall FELayoutFixedGrid::Resize(void)
+000dc370,FELayout,STRUCT_CLOSE,464,448,0.87,public: virtual class FEObject * __thiscall FELayoutFlexGrid::Resize(void)
+000dc530,FELayout,STRUCT_CLOSE,824,816,0.90,public: virtual signed char __thiscall FELayoutScrollGrid::HandleInput(signed char)
+000dc9d0,FELayout,STRUCT_CLOSE,1064,1056,0.76,public: virtual signed char __thiscall FELayoutFlexScrollGrid::HandleInput(signed char)
+000dd790,FEObject,SCHED,197,208,0.99,"public: void __thiscall FEObject::DrawSprite(enum FERenderPass::Flags, unsigned int, unsigned int, class ex::RGBA, unsig"
+000dd860,FEObject,SCHED,172,176,0.98,"public: void __thiscall FEObject::DrawText(enum FERenderPass::Flags, unsigned int, unsigned int, class ex::RGBA, unsigne"
+000ddad0,FELayout,SCHED,357,368,0.95,"public: __thiscall FELayoutScrollGrid::FELayoutScrollGrid(unsigned int, unsigned int, unsigned int, unsigned int, unsign"
+000ddc40,FELayout,REGALLOC,36,48,1.00,"public: virtual class FEObject * __thiscall FELayoutScrollGrid::SetVisibleCount(unsigned int, unsigned int)"
+000ddce0,FELayout,STRUCT_CLOSE,626,640,0.97,public: virtual class FEObject * __thiscall FELayoutScrollGrid::Resize(void)
+000ddf60,FELayout,SCHED,305,320,0.98,"public: __thiscall FELayoutFlexScrollGrid::FELayoutFlexScrollGrid(unsigned int, unsigned int, unsigned int, unsigned int"
+000de210,FELayout,STRUCT_CLOSE,656,672,0.92,public: virtual class FEObject * __thiscall FELayoutFlexScrollGrid::Resize(void)
+000de4d0,FELayout,STRUCT_CLOSE,576,576,0.83,public: virtual class FEObject * __thiscall FELayoutCurve::Resize(void)
+000de900,FELayout,STRUCT_CLOSE,795,800,0.93,public: virtual signed char __thiscall FELayoutSpin::HandleInput(signed char)
+000dec40,FELayout,STRUCT,237,176,0.65,public: virtual void __thiscall FELayoutCheckbox::Draw(void)
+000df6c0,FELayout,STRUCT_CLOSE,686,704,0.93,public: virtual void __thiscall FELayoutSlider::Draw(void)
+000e0d90,FEMainMenu,SCHED,86,96,0.92,public: __thiscall XItemHandler_FETrophy::XItemHandler_FETrophy(void)
+000e1780,FEMainMenu,STRUCT,84,144,0.52,public: unsigned int __thiscall FEMainMenu::CameraIndexFromState(unsigned int)
+000f4710,FEMainMenu,STRUCT_CLOSE,213,224,0.97,public: void __thiscall FEMainMenu::RefreshPostLoadContent(void)
+000f4bd0,FEManager,STRUCT_CLOSE,528,528,0.86,"signed char __cdecl Manager_Startup(class FEObject *, enum FEObjEvent::Flags)"
+000f6e90,FENavigator,STRUCT_CLOSE,359,368,0.99,"public: __thiscall FEListener::FEListener(unsigned __int64, unsigned int, signed char (__cdecl *)(class FEObject *, enum"
+000f7000,FENavigator,REGALLOC,122,128,1.00,public: __thiscall FEListener::FEListener(class FEListener *)
+000f70a0,FENavigator,STRUCT,185,160,0.68,public: static void __cdecl FEListener::Initialise(void)
+000f71e0,FENavigator,STRUCT_CLOSE,230,256,0.92,"public: static signed char __cdecl FEListener::QueryButton(unsigned int, enum FEPad::Flags, signed char)"
+000f7ba0,FENavigator,STRUCT_CLOSE,275,288,0.94,"public: signed char __thiscall FEKeyRepeater::QueryButton(unsigned int, enum FEPad::Flags)"
+000f8e60,FEObject,STRUCT_CLOSE,210,224,0.79,"public: virtual class FEObject * __thiscall FEObject::SetFocus(signed char, signed char, signed char)"
+000f95a0,FEObject,SCHED,142,144,0.98,"public: void __thiscall FEObject::DrawBorderSprite(enum FERenderPass::Flags, unsigned int, unsigned int, class ex::RGBA,"
+000f9630,FEObject,SCHED,71,80,0.93,"public: __thiscall FEKeyframe::FEKeyframe(class FEObject *, class EXPoint, float)"
+000f9750,FEObject,SCHED,119,128,0.97,"public: class FEObject * __thiscall FEObject::KeyframeAdd(class EXPoint, float)"
+000f98a0,FEObject,STRUCT_CLOSE,393,416,0.97,public: void __thiscall FEObject::DoObjectAlign(void)
+000f9ad0,FEObject,REGALLOC,49,64,1.00,public: class FEObject * __thiscall FEObject::MakeSafeRect(void)
+000f9b10,FEObject,STRUCT_CLOSE,227,256,0.91,public: class EXVector __thiscall FEObject::FindDatum(unsigned int)
+000f9c10,FEObject,STRUCT,207,256,0.62,public: class EXPoint __thiscall FEObject::FindDatum2D(unsigned int)
+000f9d70,FEObject,STRUCT_CLOSE,237,240,0.96,public: float __thiscall FEKeyframe::Update(float)
+000f9ed0,FEObject,STRUCT_CLOSE,720,720,0.90,"public: void __thiscall FEObject::Init(enum FEObjType::Flags, unsigned int, unsigned int, unsigned __int64, class EXStri"
+000fa1a0,FEObject,STRUCT_CLOSE,224,224,0.96,public: class FEObject * __thiscall FEObject::KeyframeClear(void)
+000fa280,FEObject,STRUCT_CLOSE,644,592,0.84,public: virtual void __thiscall FEObject::UpdateKeyframes(void)
+000fa650,FEObject,STRUCT,1010,1008,0.60,public: virtual void __thiscall FEObject::Draw(void)
+00105200,FERadar,SCHED,227,240,0.98,private: __thiscall FERadar::FERadar(void)
+00107480,FEScript,SCHED,53,64,0.91,"public: void __thiscall FEDatumCache::Set(unsigned int, class EXVector)"
+001076c0,FEScript,STRUCT_CLOSE,232,256,0.92,public: class FEObjectScript * __thiscall FEObjectScript::SetFrame(float)
+00107cf0,FEScript,REGALLOC,87,96,1.00,public: class FEObjectScript * __thiscall FEObjectScript::SetAmountPlayed(float)
+00107e90,FEScript,STRUCT_CLOSE,444,448,0.94,"public: virtual unsigned int __thiscall FEObjectHandler::DoScriptCmdEvent(struct GEOSCRIPT_EVENT *, class EXItemAnimator"
+001094e0,FEScript,REGALLOC,258,272,1.00,public: virtual __thiscall FEObjectScript::~FEObjectScript(void)
+0010c5b0,FEWnd,STRUCT_CLOSE,44,48,0.87,public: void __thiscall FEWnd::HandleInput(void)
+0010c630,FEWnd,STRUCT_CLOSE,63,64,0.90,public: void __thiscall FEWnd::DebugDump(void)
+0010e0a0,FEWnd,REGALLOC,126,128,1.00,public: void __thiscall FEWnd::Init(class FEObject *)
+0010fc20,FEWnd,STRUCT_CLOSE,176,192,0.97,public: virtual __thiscall FEWnd::~FEWnd(void)
+00110090,FEWnd,STRUCT_CLOSE,191,208,0.99,public: static void __cdecl FE::_Init(class FEObject *)
+00110600,FX_AirTraffic,STRUCT,638,880,0.60,public: void __thiscall XItemHandler_AirVehicle::UpdateEmergency(void)
+00110b70,FX_AirTraffic,STRUCT_CLOSE,368,368,0.99,public: virtual signed char __thiscall XItemHandler_AirVehicle::Initialise(void)
+001119c0,FX_AirTraffic,SCHED,367,368,0.99,public: void __thiscall XItemHandler_AirVehicle::HandleVisionModeTextureSwaps(unsigned char)
+0011d3a0,FX_AirTraffic,PLACEHOLDER,3,752,0.00,public: virtual signed char __thiscall XItemHandler_AirVehicle::DoUpdate(void)
+0011dca0,FX_AirTrafficHandler,STRUCT_CLOSE,186,192,0.84,"class EXItemAnimator_Script * __cdecl AddScriptToDatum(class EXItem *, unsigned int, unsigned int, unsigned int)"
+0011ec60,FX_CCTV,REGALLOC,45,48,1.00,public: virtual signed char __thiscall XItemHandler_CCTV::Initialise(void)
+0011efd0,FX_CCTV,PLACEHOLDER,3,1824,0.00,public: virtual signed char __thiscall XItemHandler_CCTV::DoUpdate(void)
+0011f6f0,FX_CCTV,STRUCT_CLOSE,152,160,0.97,"public: signed char __thiscall XItemHandler_CCTV::GetScanInfo(int, struct ScanInfo *)"
+00123a40,FX_Graffiti,SCHED,245,256,0.95,class XItem * __cdecl Graffiti_GetNearest(class EXVector &)
+00123d20,FX_Hints,PLACEHOLDER,3,1408,0.00,public: virtual signed char __thiscall XItemHandler_Hint::DoUpdate(void)
+00124f10,FX_Turret,STRUCT_CLOSE,174,176,0.92,"public: signed char __thiscall XItemHandler_Turret::GetScanInfo(int, struct ScanInfo *)"
+00125350,FX_Turret,PLACEHOLDER,3,3568,0.00,public: virtual signed char __thiscall XItemHandler_Turret::DoUpdate(void)
+00127810,GameData,STRUCT_CLOSE,121,128,0.94,public: void __thiscall GearCarryOver::Restore(signed char)
+00128420,GameData,STRUCT,53,64,0.74,public: static void __cdecl GameControllerRemovedSys::UpdateControllers(void)
+00128650,GameData,SCHED,624,624,0.99,public: void __thiscall GameData::SettingsStore(void)
+00128d90,GameData,STRUCT_CLOSE,972,976,0.96,public: void __thiscall GameData::SettingsRestore(signed char)
+00129550,GameIsland,STRUCT_CLOSE,165,176,0.98,"public: signed char __thiscall XGameWnd::GetIslandSectionInfo(class EXVector &, unsigned int &)"
+00129600,GameIsland,SCHED,175,176,0.98,protected: void __thiscall XGameWnd::UpdateIslandRadar(void)
+0012d840,GeoSectionManager,STRUCT,80,96,0.93,"public: static signed char __cdecl GeoSectionManager::Compact(int, int)"
+0012dc40,GeoSectionManager,STRUCT_CLOSE,86,96,0.96,"public: static class GeoSectionItem * __cdecl GeoSectionManager::Add(int, int)"
+0012f320,NavRoute,STRUCT_CLOSE,82,96,0.89,"public: void __thiscall XNavLocation::SetPoly(class XNavMesh *, int, int)"
+001340d0,NavMeshHdlr,STRUCT_CLOSE,218,240,0.87,public: int __thiscall XNavMeshHandler::GridSectorForPos(class EXVector const &)
+00134990,NavMeshHdlr,STRUCT,237,304,0.78,"public: signed char __thiscall XNavMeshHandler::UpdatePtrs(class XGeoNavMeshEntity *, class XGeoNavMeshEntity *)"
+00136030,NavMeshHdlr,STRUCT_CLOSE,234,240,0.86,public: signed char __thiscall XNavLocation::SelectPolyByRaycast(class EXVector &)
+00136890,NavMeshHdlr,STRUCT_CLOSE,242,240,0.94,"public: void __thiscall XNavLocation::SetPosPoly(class EXVector const &, int, signed char)"
+001381e0,NavNetwork,REGALLOC,65,80,1.00,"public: void __thiscall XNavNetwork::SetBestLinkRanged(int, int, int)"
+001386d0,NavNetwork,REGALLOC,155,160,1.00,public: signed char __thiscall XNavNetwork::ValidateNetwork(void)
+001389f0,NavNetwork,REGALLOC,226,240,1.00,"public: void __thiscall XNavNetwork::DoSubMapOffsets(unsigned short, unsigned short)"
+0013a300,NavNetwork,STRUCT_CLOSE,885,896,0.94,"public: signed char __thiscall XNavNetwork::Loaded(unsigned int, unsigned short, class XNavNode *, unsigned short, class"
+0013bb30,NavNetwork,STRUCT_CLOSE,360,384,0.81,"public: signed char __thiscall XNavNetwork::GetRoutePos(int, int, float, class EXVector &, int &)"
+0013ca20,NavNetwork,STRUCT_CLOSE,175,176,0.94,public: unsigned short __thiscall XNavNetwork::AddNode(class EXVector3 &)
+0013ddc0,NavNetwork,STRUCT,327,240,0.58,"public: int __thiscall XNavNetwork::GetJumpToZoneArray(int, class EXArray<int, int> &)"
+0013e730,NavRoute,STRUCT_CLOSE,254,240,0.77,"public: signed char __thiscall XNavRoute::RouteQuickTest(class XNavLocation *, class XNavLocation *)"
+0013e8f0,NavRoute,STRUCT,512,432,0.74,public: int __thiscall XNavRoute::TraversePolyCallback(struct NavTraverse &)
+0013eb00,NavRoute,STRUCT_CLOSE,242,256,0.86,"public: signed char __thiscall XNavRoute::Collide(class XNavLocation *, class EXVector &)"
+00140690,NavRoute,STRUCT_CLOSE,664,688,0.88,"public: int __thiscall XNavRoute::Update(class XNavLocation *, class XNavLocation *, float)"
+00146780,Objective,STRUCT_CLOSE,341,368,0.93,public: void __thiscall XItemHandler_Objective::TriggerObjective(void)
+001468f0,Objective,STRUCT_CLOSE,145,160,0.97,public: void __thiscall XItemHandler_Objective::ProcessActorKilled(class Actor *)
+00146990,Objective,STRUCT_CLOSE,113,128,0.94,public: void __thiscall XItemHandler_Objective::ProcessObjectDestroyed(void)
+00146a10,Objective,STRUCT_CLOSE,72,80,0.95,public: signed char __thiscall XItemHandler_Objective::CaresAbout(class Actor *)
+001499d0,Player,STRUCT,101,128,0.94,float __cdecl InertiaToRunSpeed(float)
+0014a050,Player,STRUCT_CLOSE,211,224,0.91,"float __cdecl Vec_AngleDifference(float, float)"
+0014a150,Player,SCHED,346,352,0.99,"protected: signed char __thiscall XItemHandler_Player::CheckForActorSpace(class EXVector &, float, float)"
+0014a3f0,Player,STRUCT,56,112,0.47,protected: float __thiscall XItemHandler_Player::CalculateMSpeed(float)
+0014a9c0,Player,STRUCT,468,496,0.71,"protected: void __thiscall XItemHandler_Player::GetGrabVector(int, class EXVector &)"
+0014add0,Player,STRUCT_CLOSE,418,416,0.98,"protected: signed char __thiscall XItemHandler_Player::CheckForFinishMoveSpace(signed char, float, float, float, float)"
+0014b440,Player,STRUCT_CLOSE,18,16,0.83,protected: signed char __thiscall XItemHandler_Player::HasLanded(void)
+0014c380,Player,SCHED,245,256,0.97,protected: void __thiscall XItemHandler_Player::PlaySpecialFXScript(int)
+0014d090,Player,STRUCT_CLOSE,409,416,0.80,public: class EXVector __thiscall XItemHandler_Player::GetMidFeetPos(void)
+0014d810,Player,STRUCT_CLOSE,29,32,0.92,"int __cdecl limit<int>(int const &, int const &, int const &)"
+0014e510,Player,REGALLOC,318,320,1.00,"float __cdecl SlerpConst(class EXQuaternion &, class EXQuaternion &, class EXQuaternion &, float)"
+0014ea40,Player,STRUCT_CLOSE,112,128,0.96,"public: signed char __thiscall XItemHandler_Player::AddAmmo(int, int)"
+0014edf0,Player,STRUCT_CLOSE,532,544,0.98,protected: void __thiscall XItemHandler_Player::CalculateTargetJump(void)
+0014f050,Player,REGALLOC,625,640,1.00,protected: void __thiscall XItemHandler_Player::PostUpdatePlayer(void)
+0014fbc0,Player,SCHED,273,288,0.99,protected: void __thiscall XItemHandler_Player::InitPlasmaCasterGFX(void)
+001500c0,Player,SCHED,152,160,0.89,public: void __thiscall XItemHandler_Player::Resurrect(void)
+00151d20,Player,STRUCT_CLOSE,418,432,0.88,protected: void __thiscall XItemHandler_Player::CalculateHitMove(int)
+00156870,Player,STRUCT,679,720,0.71,protected: signed char __thiscall XItemHandler_Player::CheckForStealthKill(signed char)
+00156b40,Player,STRUCT_CLOSE,694,736,0.91,protected: signed char __thiscall XItemHandler_Player::CheckForGrabMove(signed char)
+0015c530,Player,STRUCT_CLOSE,424,432,0.93,protected: signed char __thiscall XItemHandler_Player::CheckForCombo(void)
+0015fd90,Player,STRUCT_CLOSE,680,672,0.92,protected: void __thiscall XItemHandler_Player::DoTOS(void)
+001630f0,Player,STRUCT_CLOSE,555,560,1.00,protected: signed char __thiscall XItemHandler_Player::CheckForRechargePoint(void)
+001638e0,Player,STRUCT_CLOSE,855,864,0.99,protected: signed char __thiscall XItemHandler_Player::DoGroundAttack(int)
+00167cf0,Player,STRUCT_CLOSE,676,688,0.88,protected: void __thiscall XItemHandler_Player::DoHitSpecial(void)
+0016a820,Player,STRUCT_CLOSE,448,448,0.90,"protected: void __thiscall XItemHandler_Player::InflictDamage(float, class EXVector &, class EXVector &, int)"
+0016d5d0,Recharge,SCHED,265,272,0.95,class XItem * __cdecl Recharge_GetNearest(class EXVector const &)
+0016d7a0,Recharge,SCHED,279,288,0.95,class XItem * __cdecl Beacon_GetNearest(class EXVector const &)
+0016dfe0,ScriptRunner,SCHED,283,288,0.96,"class XItem * __cdecl DoorTest_GetNearest(class EXVector const &, float)"
+0016e300,ScriptRunner,SCHED,164,176,0.94,public: virtual signed char __thiscall XItemHandler_ScriptRunner::Initialise(void)
+001715d0,TestAlienLogic,STRUCT_CLOSE,197,192,0.96,signed char __cdecl STATE_Alien_HoleDweller(class StateMachine &)
+00171730,TestAlienLogic,STRUCT_CLOSE,248,256,0.98,signed char __cdecl STATE_Alien_Sonic_Hit(class StateMachine &)
+00172d00,TestDrone,PLACEHOLDER,3,336,0.00,public: virtual signed char __thiscall XItemHandler_TestDrone::Initialise(void)
+00172e90,TestDrone,PLACEHOLDER,3,512,0.00,public: virtual signed char __thiscall XItemHandler_TestDrone::DoUpdate(void)
+001731c0,Text,STRUCT_CLOSE,284,304,0.89,"public: signed char __thiscall FEText::Parse(char *, char *, unsigned short &, char &)"
+00173550,Text,STRUCT_CLOSE,72,80,0.77,"void __cdecl Text_PrintEnvironment(class EXString, class ex::RGBA, int, int, signed char, int)"
+001735a0,Text,STRUCT_CLOSE,72,80,0.77,"void __cdecl Text_PrintMsg(class EXString, class ex::RGBA, int, int, signed char, int)"
+001738b0,Text,STRUCT_CLOSE,1256,1264,0.99,void __cdecl Text_Update(void)
+00174070,Text,STRUCT_CLOSE,368,368,0.98,public: signed char __thiscall FEText::LoadLanguage(void)
+00175f40,Traffic,STRUCT,419,464,0.67,"float __cdecl dist3D_Point_to_LineSegment(class EXVector &, class EXLineSeg &)"
+00176110,Traffic,STRUCT_CLOSE,193,192,0.94,"float __cdecl dist2D_Point_to_LineSegment(class EXVector2 const &, class EXVector2 const &, class EXVector2 const &)"
+00176990,Traffic,STRUCT,159,192,0.74,"float __cdecl EXCosineRule(float, float, float)"
+00176a50,Traffic,STRUCT_CLOSE,720,752,0.92,"float __cdecl EXCosineRule(class EXVector const &, class EXVector const &, class EXVector const &)"
+00176dc0,Traffic,STRUCT,38,48,0.80,public: class TrafficIntersection * __thiscall TrafficBoxJunction::firstIntersection(unsigned int &)
+00177300,Traffic,STRUCT_CLOSE,147,160,0.96,"protected: unsigned short __thiscall TrafficSystem::addAdditionalPathNode(class TrafficPathNode *, class TrafficPathNode"
+00177790,Traffic,STRUCT_CLOSE,296,304,0.94,public: void __thiscall TrafficLight::update(void)
+00177a90,Traffic,STRUCT_CLOSE,121,128,0.83,signed char __cdecl checkForAndUnspawnVehicle(class Vehicle *)
+00177b10,Traffic,SCHED,67,80,0.95,"public: unsigned short __thiscall TrafficSystem::addPathLink(class TrafficPathLink *, unsigned char)"
+00177fb0,Traffic,STRUCT,66,48,0.66,"public: void __thiscall EXArray<class Vehicle, class Vehicle &>::RemoveAll(void)"
+001781c0,Traffic,REGALLOC,137,144,1.00,"void __cdecl ConstructElements<class TrafficIntersection>(class TrafficIntersection *, int)"
+001784a0,Traffic,STRUCT,51,64,0.79,public: class TrafficLane * __thiscall TrafficPathLink::getLane(void) const
+00178580,Traffic,STRUCT_CLOSE,155,160,0.92,"public: float __thiscall TrafficPathLink::getDistFromLaneStartXZ(class EXVector3 const *, unsigned int, signed char)"
+00178e10,Traffic,SCHED,105,112,0.95,public: void __thiscall TrafficLane::addPathLink(class TrafficPathLink *)
+00179280,Traffic,STRUCT,362,480,0.61,"public: class Vehicle * __thiscall TrafficLaneDest::checkVehicleProximity(float, float)"
+00179460,Traffic,STRUCT,437,544,0.56,"public: class Vehicle * __thiscall TrafficLaneDest::checkCrossedLaneVehicleProximity(unsigned char, float, float)"
+001799e0,Traffic,REGALLOC,568,576,1.00,"public: void __thiscall TrafficPath::insertLink(unsigned int, unsigned int)"
+0017a100,Traffic,STRUCT_CLOSE,182,192,0.95,public: void __thiscall TrafficLocation::calcPos(class EXVector3 &)
+0017a3b0,Traffic,STRUCT_CLOSE,138,144,0.92,"public: class Vehicle * __thiscall TrafficPopulace::addVehicle(unsigned char, class TrafficLocation *)"
+0017a760,Traffic,STRUCT_CLOSE,327,320,0.97,void __cdecl TrafficSpawnerInit(void)
+0017ac10,Traffic,SCHED,488,496,0.99,public: void __thiscall TrafficSystem::handleMemCompaction(void)
+0017b460,Traffic,STRUCT,33,80,0.65,public: void __thiscall TrafficPopulace::removeVehicles(void)
+0017b820,Traffic,STRUCT_CLOSE,2486,2640,0.79,protected: void __thiscall TrafficSystem::fixLaneOrder(void)
+0017d350,Traffic,STRUCT_CLOSE,202,208,0.94,"public: void __thiscall TrafficLocation::calcPosAndRot(class EXVector3 &, class EXVector3 &)"
+0017daf0,Traffic,STRUCT,164,288,0.59,public: class TrafficPathLink * __thiscall TrafficPathLink::getNextLink(void) const
+0017dea0,Traffic,STRUCT_CLOSE,303,336,0.90,public: void __thiscall TrafficSystem::close(void)
+0017dff0,Traffic,STRUCT_CLOSE,913,912,0.99,protected: void __thiscall TrafficSystem::reset(void)
+0017e380,Traffic,STRUCT,4009,6048,0.61,protected: void __thiscall TrafficSystem::buildFromPaths(void)
+0017fb20,Traffic,STRUCT_CLOSE,10537,10848,0.81,protected: void __thiscall TrafficSystem::postBuildSetup(void)
+001838c0,Traffic,STRUCT_CLOSE,446,448,0.88,public: void __thiscall TrafficSystem::update(void)
+00183df0,Traffic,STRUCT_CLOSE,622,624,0.90,public: void __thiscall TrafficSystem::open(void)
+001842d0,TrafficMission,STRUCT_CLOSE,137,144,0.81,void __cdecl TrafficMissionUpdate(void)
+00184a30,Trigger,SCHED,188,192,0.98,void __cdecl Trigger_CreateWater(class EXTrigger *)
+00184d40,Trigger,STRUCT_CLOSE,355,368,0.99,void __cdecl Trigger_CreateCCTV(class EXTrigger *)
+001852f0,Trigger,STRUCT_CLOSE,171,176,0.98,void __cdecl Trigger_CreateClayPigeon(class EXTrigger *)
+001857d0,Trigger,REGALLOC,137,144,1.00,public: __thiscall EXTrigger::EXTrigger(void)
+00185890,Trigger,STRUCT_CLOSE,931,944,0.90,"public: void __thiscall EXTrigger::Init(struct EXGeoTrigger *, class EXGeoMap *, class EXMapOn, unsigned short)"
+00187f40,VehicleMove,STRUCT_CLOSE,102,96,0.78,public: void __thiscall VehiclePos::set(class EXVector3 &)
+00189f40,Vehicle,STRUCT_CLOSE,506,528,0.97,"public: signed char __thiscall Vehicle::ApplyAttackDamage(unsigned int, float)"
+0018a160,Vehicle,STRUCT_CLOSE,273,272,0.95,public: void __thiscall Vehicle::updateHealthIndicator(void)
+0018a8d0,Vehicle,STRUCT_CLOSE,294,304,0.96,public: void __thiscall Vehicle::PlayMuzzleScript(int)
+0018aa00,Vehicle,STRUCT_CLOSE,238,240,0.98,public: void __thiscall Vehicle::UpdateMuzzleScript(void)
+0018ab70,Vehicle,SCHED,313,320,0.91,"public: static class Vehicle * __cdecl Vehicle::GetFirst(class EXVector const &, float)"
+0018aff0,Vehicle,SCHED,206,208,0.98,public: __thiscall Vehicle::Vehicle(void)
+0018b7a0,VehicleMove,STRUCT,48,64,0.87,float __cdecl fixAnglePositive(float)
+0018ba70,VehicleMove,STRUCT,67,80,0.89,float __cdecl kmh_to_stopping_dist(float)
+0018c550,VehicleMove,REGALLOC,224,224,1.00,public: signed char __thiscall VehicleMove::areDestCrossedLanesClear(class TrafficLaneDest *)
+0018c750,VehicleMove,STRUCT_CLOSE,501,512,0.90,public: void __thiscall VehiclePhys::update(void)
+0018c950,VehicleMove,STRUCT_CLOSE,763,752,0.97,public: void __thiscall VehiclePhys::setRotations(void)
+0018cc40,VehicleMove,STRUCT,89,112,0.48,public: float __thiscall VehicleMove::calcSpeedForTurn(float)
+0018cd20,VehicleMove,STRUCT_CLOSE,436,448,0.97,public: void __thiscall VehicleMove::ThrowGrenade(void)
+0018cff0,VehicleMove,STRUCT,68,80,0.46,"float __cdecl InterpClamped(float, float, float)"
+0018d150,VehicleMove,STRUCT,276,208,0.61,public: class EXVector & __thiscall VehiclePos::getFrontBottomCentre(class EXVector &) const
+0018d890,VehicleMove,STRUCT_CLOSE,1071,1056,0.82,public: signed char __thiscall VehicleMove::updateTurn(void)
+0018dd90,VehicleMove,STRUCT_CLOSE,1496,1712,0.92,public: signed char __thiscall VehicleMove::initLaneChange(class TrafficLocation &)
+0018e440,VehicleMove,STRUCT,744,976,0.68,public: signed char __thiscall VehicleMove::updateLaneChange(void)
+0018e810,VehicleMove,STRUCT,733,944,0.73,public: float __thiscall VehicleMove::handlePlayerProximity(void)
+0018ebc0,VehicleMove,STRUCT,1424,1696,0.76,"public: signed char __thiscall VehicleMove::handleActorProximity(class Actor **, float &)"
+0018f560,VehicleMove,STRUCT,200,352,0.52,public: void __thiscall VehicleReaction::update(void)
+0018f8e0,VehicleMove,STRUCT,1364,1376,0.74,public: signed char __thiscall VehicleMove::buildRouteFromPath(unsigned int)
+0018fe40,VehicleMove,STRUCT_CLOSE,558,576,0.76,public: signed char __thiscall VehicleMove::nextRouteStep(void)
+00190110,VehicleMove,STRUCT,439,544,0.78,public: void __thiscall VehicleMove::reset(class Vehicle *)
+00190480,VehicleMove,STRUCT,372,352,0.70,public: signed char __thiscall VehicleMove::doContinueChecks(void)
+001905e0,VehicleMove,STRUCT_CLOSE,966,976,0.78,public: void __thiscall VehicleAccel::update(void)
+001909b0,VehicleMove,STRUCT_CLOSE,393,400,0.91,public: signed char __thiscall VehicleMove::updatePos(void)
+00190b40,VehicleMove,STRUCT_CLOSE,661,672,0.98,public: void __thiscall VehicleMove::emergencyVehicleBroadcast(void)
+00190ee0,VehicleMove,STRUCT_CLOSE,6320,6464,0.93,public: void __thiscall VehicleMove::update(void)
+00192c50,VehiclePos,SCHED,96,96,0.96,public: float __thiscall VehiclePos::getDistBetweenCentres(class Vehicle *)
+00196850,VehicleTypes,STRUCT_CLOSE,402,432,0.78,public: __thiscall Graficar::Graficar(void)
+00196a00,VehicleTypes,STRUCT_CLOSE,420,448,0.85,public: __thiscall Version2::Version2(void)
+00196bc0,VehicleTypes,STRUCT_CLOSE,399,432,0.85,public: __thiscall Modern::Modern(void)
+00196d70,VehicleTypes,STRUCT_CLOSE,378,432,0.90,public: __thiscall FireEngine::FireEngine(void)
+00196f20,VehicleTypes,STRUCT_CLOSE,399,432,0.85,public: __thiscall Police::Police(void)
+001970d0,VehicleTypes,STRUCT_CLOSE,390,432,0.90,public: __thiscall Sports2::Sports2(void)
+00197280,VehicleTypes,STRUCT_CLOSE,330,384,0.87,public: __thiscall Gunship::Gunship(void)
+00197400,VehicleTypes,STRUCT_CLOSE,382,432,0.87,public: __thiscall Hummer::Hummer(void)
+001975b0,VehicleTypes,STRUCT_CLOSE,412,464,0.82,public: __thiscall ChemTruck::ChemTruck(void)
+00197780,VehicleTypes,STRUCT_CLOSE,351,400,0.91,public: __thiscall Matador::Matador(void)
+00197910,VehicleTypes,STRUCT_CLOSE,388,416,0.94,public: __thiscall Version2Low::Version2Low(void)
+00197ab0,VehicleTypes,STRUCT_CLOSE,367,400,0.89,public: __thiscall ModernLow::ModernLow(void)
+00197c40,VehicleTypes,STRUCT_CLOSE,358,400,0.88,public: __thiscall Sports2Low::Sports2Low(void)
+00198360,VisionWipe,STRUCT_CLOSE,345,368,0.96,public: void __thiscall VisionWipe::Start(unsigned char)
+00198510,VisionWipe,STRUCT_CLOSE,382,400,0.85,public: virtual signed char __thiscall VisionWipe::Update(void)
+00198a10,Voosh,REGALLOC,259,272,1.00,protected: void __thiscall XItemHandler_Voosh::Update(void)
+00199450,WeaponTable,STRUCT_CLOSE,494,512,0.96,public: static void __cdecl WeaponProfile::Init(void)
+00199c60,XGamePad,REGALLOC,53,64,1.00,public: enum EXPad::AnalogChan __thiscall XGamePad::GetAnalogueFromAction(unsigned int)
+0019a9c0,XGamePad,STRUCT_CLOSE,682,688,0.96,public: void __thiscall XGamePad::UpdateRumble(void)
+0019acd0,XGamePad,SCHED,102,112,0.96,"public: int __thiscall XGamePad::PlayRumble(unsigned int, float, unsigned char)"
+0019ad40,XGamePad,SCHED,162,176,0.95,"public: void __thiscall XGamePad::PlayRumble3D(unsigned int, class EXVector &, float, float, float, unsigned char)"
+0019b470,XGeoEntity_NavMesh,REGALLOC,133,144,1.00,"private: void __thiscall XGeoNavMeshEntity::TrisFromPoly(int, struct EXGeoNavMeshEntity_PolyList *, int &, struct EXGeoN"
+0019b7b0,XGeoEntity_NavMesh,STRUCT_CLOSE,277,288,0.95,private: signed char __thiscall XGeoNavMeshEntity::UpdatePtrs(void)
+0019b8d0,XGeoEntity_NavMesh,STRUCT,132,160,0.88,"private: signed char __thiscall XGeoNavMeshEntity::PolyVerts(int, class EXVector *, int *)"
+0019ba40,XGeoEntity_NavMesh,STRUCT_CLOSE,269,272,0.88,"private: float __thiscall XGeoNavMeshEntity::GetHeight(class EXVector const &, int, int, class EXVector *)"
+001a3970,XGeoEntity_NavMesh,STRUCT_CLOSE,85,96,0.91,"private: virtual void __thiscall XGeoNavMeshEntity::OnCreate(class EXGeoHeader *, class EXGeoObjectHeader *)"
+001a3d00,XItemPhysics,STRUCT_CLOSE,1002,1104,0.80,public: virtual signed char __thiscall XItemPhysics::DoUpdate(void)
+001a4210,XItemPhysics,SCHED,188,192,0.93,public: float __thiscall XItemPhysics::RealSpeed(void)
+001a4840,XItemPhysics,STRUCT,546,720,0.72,"public: static void __cdecl XItemPhysics::FaceCollisionCallBack(class EXCScoop_FaceData *, class EXItemPhysics &)"
+001a4bd0,XItemPhysics,STRUCT,491,672,0.80,public: virtual void __thiscall XItemPhysics::InterObjCallback(class EXInterCollisionTemp &)
+001a81a0,XBMatrix,STRUCT_CLOSE,689,752,0.80,public: class EXMaths::mat_44 __thiscall EXMaths::mat_44::inverse3(void) const
+001a84f0,XBMatrix,SCHED,298,304,0.89,public: class EXMaths::mat_44 __thiscall EXMaths::mat_44::fastinverse(void) const
+001a8620,XBMatrix,STRUCT_CLOSE,319,320,0.77,public: void __thiscall EXMaths::mat_44::set_rotate_quat(class EXMaths::vec_xyzw const &)
+001a8760,XBMatrix,STRUCT_CLOSE,410,416,0.79,public: void __thiscall EXMaths::mat_44::set_rotate_axis(class EXMaths::vec_xyzw const &)
+001a9020,EXQuaternion,STRUCT_CLOSE,68,80,0.88,float __cdecl qrecipsqrtf(float)
+001a9590,EXQuaternion,STRUCT,158,272,0.74,public: class EXQuaternion __thiscall EXQuaternion::Inverse(void) const
+001a9c50,EXQuaternion,STRUCT_CLOSE,189,192,0.95,public: float __thiscall EXQuaternion::AngleDiff(class EXQuaternion const &) const
+001a9d10,EXQuaternion,STRUCT_CLOSE,331,288,0.82,"public: class EXQuaternion __thiscall EXQuaternion::SlerpBy(class EXQuaternion const &, float, float &) const"
+001a9e30,EXQuaternion,STRUCT_CLOSE,437,464,0.96,public: void __thiscall EXQuaternion::GetRotation(class EXAngleAxis &) const
+001aa000,EXQuaternion,STRUCT_CLOSE,630,640,0.90,public: void __thiscall EXQuaternion::GetRotation(class EXMatrix &) const
+001aa340,XBQuaternion,SCHED,216,224,0.96,public: void __thiscall EXMaths::quat_xyzw::set_rotate_xyz(class EXMaths::vec_xyzw const &)
+001aa420,XBQuaternion,SCHED,216,224,0.96,public: void __thiscall EXMaths::quat_xyzw::set_rotate_xzy(class EXMaths::vec_xyzw const &)
+001aa500,XBQuaternion,SCHED,216,224,0.96,public: void __thiscall EXMaths::quat_xyzw::set_rotate_yxz(class EXMaths::vec_xyzw const &)
+001aa5e0,XBQuaternion,SCHED,216,224,0.96,public: void __thiscall EXMaths::quat_xyzw::set_rotate_yzx(class EXMaths::vec_xyzw const &)
+001aa6c0,XBQuaternion,SCHED,216,224,0.96,public: void __thiscall EXMaths::quat_xyzw::set_rotate_zxy(class EXMaths::vec_xyzw const &)
+001aa7a0,XBQuaternion,SCHED,216,224,0.96,public: void __thiscall EXMaths::quat_xyzw::set_rotate_zyx(class EXMaths::vec_xyzw const &)
+001aa970,XBQuaternion,STRUCT,1424,1472,0.69,"public: void __thiscall EXMaths::quat_xyzw::SetRotation(class EXMaths::vec_xyzw const &, unsigned char)"
+001aaf30,XBQuaternion,SCHED,654,656,0.96,"public: class EXMaths::quat_xyzw __thiscall EXMaths::quat_xyzw::slerp(class EXMaths::quat_xyzw const &, float) const"
+001ab420,XBQuaternion,STRUCT_CLOSE,286,288,0.93,public: class EXMaths::vec_xyzw __thiscall EXMaths::quat_xyzw::MultiplyVector(class EXMaths::vec_xyzw const &) const
+001abee0,EXString,REGALLOC,185,192,1.00,public: signed char __thiscall EXString::CompareNoCase(class EXString const &) const
+001acf20,EXString,STRUCT_CLOSE,545,544,0.93,"public: int __thiscall EXString::Tokenise(class EXStringArray &, class EXString const &, signed char) const"
+001ad940,EXSoundManager,SCHED,93,96,0.97,"protected: void __thiscall EXBaseSoundManager::StartMusicXFade(int, int, int, int, int, struct XFileHandle const *, int)"
+001af360,EXSoundManager,SCHED,89,96,0.97,public: void __thiscall EXSoundTag::KillSoundPlayingLooping(void) const
+001b09d0,EXItemAnimator_Map,REGALLOC,10,16,1.00,public: signed char __thiscall EXGeoBaseEntity::HasCollision(void) const
+001b0db0,EXItemRender_Anim,STRUCT_CLOSE,29,32,0.92,"unsigned int __cdecl limit<unsigned int>(unsigned int const &, unsigned int const &, unsigned int const &)"
+001b1480,EXItemAnimator_Entity,STRUCT,433,512,0.54,"public: virtual void __thiscall EXItemAnimator_Entity::DoRayCast(class EXMatrix const &, struct EXRayCastTemp &, unsigne"
+001b21e0,EXItemAnimator_Script,SCHED,152,160,0.98,"public: class EXItemAnimator * __thiscall EXItemAnimator_Script::CreateThreadObject(class EXGeoScript const *, class EXS"
+001b2280,EXItemAnimator_Script,SCHED,173,176,0.99,"public: class EXItemAnimator * __thiscall EXItemAnimator_Script::CreateThreadScript(class EXGeoScript const *, class EXS"
+001b2330,EXItemAnimator_Script,SCHED,287,288,0.98,"public: class EXItemAnimator * __thiscall EXItemAnimator_Script::CreateThreadSound(class EXGeoScript const *, class EXSc"
+001b26a0,EXItemAnimator_Script,STRUCT_CLOSE,190,192,0.96,"public: virtual void __thiscall EXItemAnimator_Script::DoRayCast(class EXMatrix const &, struct EXRayCastTemp &, unsigne"
+001b2940,EXItemAnimator_Script,STRUCT_CLOSE,139,144,0.94,"public: virtual void __thiscall EXItemAnimator_Script::DoEntityScoop(class EXMatrix const &, class EXCollisionScoopTemp "
+001b3490,EXItemAnimator_Script,STRUCT_CLOSE,367,368,0.98,"public: class EXItemAnimator * __thiscall EXItemAnimator_Script::CreateThreadAnim(class EXGeoScript const *, class EXScr"
+001b38c0,EXItemAnimator_Script,STRUCT_CLOSE,229,240,0.97,"public: virtual void __thiscall EXItemAnimator_Script::GetDatum(unsigned int, class EXDatumTempArray &, unsigned int)"
+001b3a70,EXItemAnimator_Script,STRUCT_CLOSE,179,176,0.92,public: class EXItemAnimator * __thiscall EXItemAnimator_Script::GetThreadAnimator(unsigned int) const
+001b40c0,EXItemAnimator_Script,STRUCT,236,256,0.71,"public: class EXItemAnimator * __thiscall EXItemAnimator_Script::CreateThreadAnimator(class EXGeoScript const *, class E"
+001b42e0,EXItemAnimator_Script,SCHED,224,224,0.95,"public: int __thiscall EXItemAnimator_Script::DoUpdate_InitialiseThread(class EXGeoScript *, struct GEOSCRIPT_CMD const "
+001b4700,EXItemAnimator_Script,STRUCT_CLOSE,366,368,0.90,public: void __thiscall EXItemAnimator_Script::SetScriptOffset(unsigned int)
+001b4870,EXItemAnimator_Script,STRUCT_CLOSE,184,192,0.81,"protected: int __thiscall EXItemAnimator_Script::DoUpdate_ScriptCmdEventCall(struct GEOSCRIPT_CMD *, int)"
+001b4ad0,EXItemAnimator_Script,STRUCT_CLOSE,546,560,0.89,protected: void __thiscall EXItemAnimator_Script::DoUpdate_ScriptCmds(float)
+001b4d40,EXItemAnimator_Script,STRUCT,313,336,0.74,protected: void __thiscall EXItemAnimator_Script::DoUpdate_ScriptCmdsReverse(float)
+001b5520,EXItemAnimator_AnimModifier,SCHED,245,256,0.94,public: __thiscall EXSpineModifier::EXSpineModifier(void)
+001b59f0,EXItemAnimator_AnimModifier,STRUCT_CLOSE,220,224,0.86,"public: void __thiscall EXSpineModifier::NewStep(class EXVector const &, float)"
+001b6060,EXItemAnimator_AnimModifier,SCHED,329,336,0.94,public: __thiscall EXHeadTracking::EXHeadTracking(void)
+001b9e60,EXGamepad,STRUCT_CLOSE,207,208,0.85,public: void __thiscall EXBaseGamePad::UpdateActions(void)
+001ba120,EXGamepad,STRUCT_CLOSE,101,112,0.89,public: void __thiscall EXBaseGamePad::EnableAllRumble(signed char)
+001ba190,EXGamepad,SCHED,87,96,0.96,protected: void __thiscall EXBaseGamePad::RumbleUpdate(unsigned char)
+001bf310,EXDistance,REGALLOC,487,496,1.00,"float __cdecl EXSqrDistance(class EXMaths::vec_xyzw const &, class EXLine const &, float *)"
+001bf500,EXDistance,REGALLOC,502,512,1.00,"float __cdecl EXSqrDistance(class EXMaths::vec_xyzw const &, class EXRay const &, float *)"
+001bf700,EXDistance,SCHED,544,544,0.99,"float __cdecl EXSqrDistance(class EXMaths::vec_xyzw const &, class EXLineSeg const &, float *)"
+001c85e0,EXItemCtrl,SCHED,96,96,0.97,public: __thiscall EXItemCtrl::EXItemCtrl(unsigned int)
+001cc0b0,EXItemAnimator_Anim,STRUCT_CLOSE,318,336,1.00,"public: signed char __thiscall EXItemAnimator_Anim::Initialise(struct EXGeoRefObject const &, struct EXGeoRefObject cons"
+001cc3b0,EXItemAnimator_Anim,REGALLOC,321,336,1.00,"public: void __thiscall EXItemAnimator_Anim::ChangeToAnimSet(class EXGeoAnimSetHeader const *, unsigned int)"
+001cc8e0,EXItemAnimator_Anim,STRUCT_CLOSE,417,416,0.87,public: void __thiscall EXItemAnimator_Anim::UpdateRenderHierarchy(void)
+001ccd50,EXItemAnimator_Anim,STRUCT_CLOSE,137,144,0.86,"public: virtual signed char __thiscall EXItemAnimator_Anim::Initialise(class EXGeoFile *, unsigned int)"
+001ccde0,EXItemAnimator_Anim,STRUCT_CLOSE,119,128,0.91,"public: unsigned int __thiscall EXItemAnimator_Anim::ChangeToAnimMode(unsigned int, unsigned int, unsigned int)"
+001cd940,EXItemCtrl_Anim,STRUCT_CLOSE,250,256,0.94,public: unsigned int __thiscall EXItemCtrl_Anim::CalcFrameDepth(float &) const
+001cdfe0,EXItemCtrl_Anim,STRUCT_CLOSE,640,624,0.92,"public: void __thiscall EXItemCtrl_Anim::SetFromScriptAnimCmd(class EXGeoHeader const *, struct _GEOSCRIPT_ANIM const *)"
+001ce250,EXItemCtrl_Anim,SCHED,343,352,0.98,"public: signed char __thiscall EXItemCtrl_Anim::CalcFrameInfo(float &, float &) const"
+001d1ba0,EXItem,STRUCT_CLOSE,430,448,0.94,public: __thiscall EXPlacementItem::EXPlacementItem(void)
+001d1f80,EXItem,STRUCT_CLOSE,362,368,0.94,"protected: void __thiscall EXPlacementItem::CalcMatrix_Vap(class EXMatrix const &, class EXMatrix &, unsigned int) const"
+001d23b0,EXItem,SCHED,273,288,0.99,public: __thiscall EXItem::EXItem(void)
+001d2840,EXItem,STRUCT_CLOSE,556,576,0.92,"public: virtual void __thiscall EXItem::GetAnimatorDatum(unsigned int, class EXDatumTempArray &, unsigned int) const"
+001e2ee0,EXPhysics6D,STRUCT_CLOSE,311,320,0.93,public: virtual void __thiscall EX6DParticleBase::ClearForces(void)
+001e4520,EXPhysics6D,REGALLOC,140,144,1.00,public: virtual void __thiscall EX6DRigidBody::SetMass(float)
+001e5fd0,EXPhysics6D,REGALLOC,71,80,1.00,public: __thiscall EX6DObject::EX6DObject(void)
+001e6fc0,EXPhysics6D,STRUCT_CLOSE,530,544,0.91,public: virtual void __thiscall EX6DParticleBase::Syncronise(void)
+001e81b0,EXPhysics6D,STRUCT_CLOSE,1172,1216,0.91,"public: void __thiscall EX6DRigidBody::AddWorldForceAtPoint(class EXVector const &, class EXVector const &)"
+001e8670,EXPhysics6D,STRUCT_CLOSE,1172,1216,0.89,"public: void __thiscall EX6DRigidBody::AddWorldImpulseAtPoint(class EXVector const &, class EXVector const &)"
+001f29d0,EXPhysics6D,REGALLOC,94,96,1.00,public: static class EX6DObject * __cdecl EX6DObject::CreateObject(void)
+001f35e0,EXPhysics6D,SCHED,310,320,0.89,public: __thiscall EX6DParticleBase::EX6DParticleBase(void)
+001f9e50,EXPhysics6D,STRUCT_CLOSE,375,368,0.88,public: virtual void __thiscall EX6DParticleBase::DoEnvironmentCollisions(float)
+001f9fc0,EXPhysics6D,STRUCT_CLOSE,530,528,0.93,public: virtual void __thiscall EX6DBodyGroup::DoEnvironmentCollisions(float)
+001fda20,EXPhysics6D,SCHED,133,144,0.94,public: __thiscall EX6DBodyGroup::EX6DBodyGroup(void)
+001fde30,EXItemEnv,STRUCT,16,16,0.67,"public: void __thiscall EXMapOn::Set(int, int)"
+001fe4a0,EXItemEnv,STRUCT_CLOSE,137,128,0.92,public: void __thiscall EXMatrix::SetTranslate(class EXVector const &)
+001fe870,EXItemEnv,STRUCT_CLOSE,844,944,0.87,public: void __thiscall EXItemEnv::UpdateItems_InterObjCollision(void)
+001ff7e0,EXItemEnv,STRUCT,89,96,0.66,public: class EXItemAnimator_Map * __thiscall EXItemEnv::GetMapItem(class EXVector const &) const
+001ff870,EXItemEnv,STRUCT_CLOSE,120,128,0.88,public: class EXMapOn __thiscall EXItemEnv::GetMapOn(class EXVector const &) const
+001ffc50,EXItemEnv,SCHED,56,64,0.96,public: class EXMapPlacement * __thiscall EXItemEnv::GetMapPlacement(unsigned int) const
+00200a20,EXItemEnv,STRUCT_CLOSE,1222,1280,0.92,"protected: int __thiscall EXItemEnv::CheckPortalToView(struct EXGeoPortal const *, struct EXGeoPortalInfo const *, struc"
+00201520,EXItemEnv,STRUCT_CLOSE,261,288,0.84,"public: void __thiscall EXItemEnv::RemoveMap(class EXGeoFile *, unsigned int)"
+00201750,EXItemEnv,STRUCT_CLOSE,156,160,0.92,public: class EXGeoPath * __thiscall EXItemEnv::GetPath(int) const
+002017f0,EXItemEnv,STRUCT_CLOSE,128,128,0.85,public: struct EXGeoCamera * __thiscall EXItemEnv::GetCamera(int) const
+00201870,EXItemEnv,STRUCT_CLOSE,128,128,0.85,public: struct EXGeoSpecial * __thiscall EXItemEnv::GetSpecial(int) const
+002018f0,EXItemEnv,STRUCT_CLOSE,85,96,0.79,public: struct EXGeoPortal * __thiscall EXItemEnv::GetPortal(int) const
+00201950,EXItemEnv,STRUCT_CLOSE,128,128,0.85,public: class EXGeoLight * __thiscall EXItemEnv::GetLight(int) const
+00201d90,EXItemEnv,STRUCT_CLOSE,76,80,0.92,public: class EXMapOn __thiscall EXItemEnv::GetMapOn(unsigned int) const
+00202130,EXItemEnv,SCHED,351,352,0.99,"public: signed char __thiscall EXItemEnv::IsZoneVisible(class EXVector const &, float) const"
+002023d0,EXItemEnv,STRUCT_CLOSE,1109,1088,0.91,protected: void __thiscall EXItemEnv::RenderItems(void)
+00202990,EXItemEnv,REGALLOC,822,832,1.00,public: void __thiscall EXItemEnv::RenderReflections(void) const
+00202ed0,EXItemEnv,STRUCT,1222,1280,0.74,"protected: void __thiscall EXItemEnv::RecursePortal(class EXItemAnimator_Map *, class EXMapZoneInfo *, struct EXViewPort"
+00203a40,EXItemEnv,SCHED,447,448,0.98,protected: void __thiscall EXItemEnv::CalculatePortalVisability(class EXItemEnvView const *)
+00203e90,EXItemEnv,SCHED,441,448,0.99,"public: __thiscall EXItemEnv::EXItemEnv(unsigned int, unsigned int)"
+00204240,EXItemEnv,STRUCT_CLOSE,4141,4032,0.89,protected: void __thiscall EXItemEnv::ProcessMapZones(signed char)
+00205320,EXItemEnv,REGALLOC,402,416,1.00,"public: class EXItemAnimator_Map * __thiscall EXItemEnv::AddMap(class EXGeoFile *, unsigned int, class EXItemAnimator_Ma"
+00206930,EXGeoFile,STRUCT_CLOSE,117,128,0.90,public: void __thiscall EXGeoHeader::AnimateTextureArray(void) const
+002069b0,EXGeoFile,STRUCT,65,80,0.85,public: unsigned int __thiscall EXGeoHeader::GeoObjectHashIndex(unsigned int) const
+002083d0,EXGeoFile,SCHED,200,208,0.97,public: class EXGeoFile * __thiscall EXAllocator<class EXGeoFile>::Get(void)
+002086a0,EXGeoFile,STRUCT_CLOSE,526,544,0.97,"public: signed char __thiscall EXGeoHeader::LoadSectionFile(unsigned int, signed char, unsigned int)"
+00208a40,EXGeoFile,STRUCT_CLOSE,428,448,0.94,"private: signed char __thiscall EXGeoFile::_LoadFile(signed char, unsigned int)"
+00209590,EXGeoFile,SCHED,65,80,0.95,public: __thiscall EXGeoFileDataBlock::EXGeoFileDataBlock(class EXGeoHeader const *)
+00209660,EXGeoFile,REGALLOC,346,352,1.00,public: void __thiscall EXGeoHeader::InitialiseExternalReferences(void)
+002097c0,EXGeoFile,STRUCT_CLOSE,242,256,0.99,public: virtual signed char __thiscall EXGeoSectionFile::OnLoaded(void)
+002098c0,EXGeoFile,REGALLOC,90,96,1.00,public: void __thiscall EXGeoFile::Initialise(void)
+0020d7b0,XBVector,STRUCT_CLOSE,43,48,0.83,"float const & __cdecl max3<float>(float const &, float const &, float const &)"
+0020e820,EXList,STRUCT,67,80,0.84,"public: void __thiscall EXDList::Insert(class EXDListItem *, class EXDListItem *)"
+0020ff10,EXCollision,STRUCT_CLOSE,544,544,0.97,"public: signed char __thiscall EXCollisionType::Intersection(class EXCollisionType const &, class EXVector &, class EXVe"
+002101d0,EXCollision,REGALLOC,309,320,1.00,public: void __thiscall EXCollisionScoopTemp::CalculateFaceArray(void)
+00210380,EXCollision,SCHED,312,320,0.99,"public: void __thiscall EXCollisionScoopTemp::QuickSort(unsigned int, unsigned int)"
+002117e0,EXCollision,STRUCT_CLOSE,120,128,0.91,public: signed char __thiscall EXCollisionLayer::CalcCollisionEntity(class EXGeoBaseEntity *&) const
+00211860,EXCollision,STRUCT_CLOSE,177,176,0.78,public: signed char __thiscall EXCollisionLayer::CalcGrabpointEntity(class EXGeoBaseEntity *&) const
+00214270,EXCollision,STRUCT,283,448,0.82,public: void __thiscall EXRayCastTemp::CalcBounds(void)
+00214430,EXCollision,STRUCT,458,624,0.87,public: void __thiscall EXRayCastTemp::CalcBoundsTemp(void)
+00215f80,EXItemAnimator,STRUCT_CLOSE,216,224,0.96,public: class _EXItemAnimatorAllocator * __thiscall EXAllocator<class _EXItemAnimatorAllocator>::Get(void)
+00216c90,EXDisplay,REGALLOC,473,480,1.00,public: __thiscall EXBaseDisplay::EXBaseDisplay(void)
+00216ef0,EXDisplay,STRUCT_CLOSE,304,288,0.82,public: class EXWnd * __thiscall EXBaseDisplay::AddWnd(class EXWnd *)
+002172d0,EXDisplay,STRUCT_CLOSE,177,208,0.76,protected: void __thiscall EXBaseDisplay::SetupSafeFrame(void)
+002173c0,EXDisplay,STRUCT_CLOSE,76,80,0.97,public: void __thiscall EXBaseDisplay::UpdateWindows(void)
+00217730,XBApp,STRUCT_CLOSE,546,560,0.95,public: virtual signed char __thiscall EXApp::MainUpdate(void)
+00217b80,XBApp,SCHED,252,256,0.99,public: void __thiscall EXApp::InitMagDemo(void)
+002189b0,EXItemRender_Anim,STRUCT_CLOSE,170,176,0.98,public: struct ex::EXBit128 __thiscall EXItemRender_SkinAnim::CalculateSkinUsageBits(unsigned int) const
+00219100,EXItemRender_Anim,STRUCT_CLOSE,354,352,0.85,"private: void __thiscall EXItemRender_SkinAnim::BuildRemapTable(class EXGeoAnimSkin const *, class EXGeoAnimSkin const *"
+00219260,EXItemRender_Anim,STRUCT_CLOSE,171,192,0.93,"private: void __thiscall EXItemRender_SkinAnim::BuildSkinRemapTable(class EXGeoHeader const *, class EXGeoAnimSkinHeader"
+00219930,EXItemRender_Anim,REGALLOC,71,80,1.00,"public: void __thiscall EXItemRender_SkinAnim::CalcChildMatrix(class EXItemRender_SkinAnimSection *, class EXMatrix *)"
+00219980,EXItemRender_Anim,REGALLOC,62,64,1.00,"private: void __thiscall EXItemRender_SkinAnim::CalcSectionMatrix(class EXItemRender_SkinAnimSection *, class EXMatrix *"
+002199c0,EXItemRender_Anim,STRUCT_CLOSE,104,112,0.95,"public: class EXItemRender_SkinAnimSection * __thiscall EXItemRender_SkinAnim::GetAnimBoneSection(unsigned int, unsigned"
+00219f50,EXItemRender_Anim,STRUCT,480,512,0.70,public: signed char __thiscall EXItemRender_SkinAnim::Create(struct EXGeoRefObject const &)
+0021e040,EXGeoCommon,REGALLOC,119,128,1.00,"public: static void __cdecl _EXGeoCommonObjectDef::Create(void *, unsigned int)"
+0021e490,EXGeoCommon,STRUCT_CLOSE,323,320,0.95,"void __cdecl EXGeoCommonArray_UpdatePtrs(class EXGeoHeader *, class EXGeoObjectArray const *, int, int)"
+0021e670,EXGeoCommon,STRUCT_CLOSE,228,240,0.94,"void __cdecl EXGeoCommonArray_OnDelete(class EXGeoHeader *, class EXGeoObjectArray const *, int, int)"
+0021e760,EXGeoCommon,STRUCT_CLOSE,196,192,0.91,"void __cdecl EXGeoCommonArray_OnSectionDelete(class EXGeoHeader *, class EXGeoObjectArray const *, int)"
+0021eb40,EXGeoSpreadSheet,REGALLOC,200,208,1.00,"public: class EXGeoTextItem * __thiscall EXGeoSpreadSheet::FindTextItem(unsigned int, class EXGeoFile const *) const"
+0021ec30,EXWnd,STRUCT_CLOSE,62,64,0.76,public: signed char __thiscall EXRect::ContainsPoint(class EXPoint const &) const
+0021ed90,EXWnd,REGALLOC,87,96,1.00,public: void __thiscall EXBaseWnd::SetRect(class EXRect const &)
+0021eed0,EXWnd,STRUCT_CLOSE,208,208,0.93,public: void __thiscall EXBaseWnd::CalcPrimRects(void)
+0021f320,EXWnd,STRUCT_CLOSE,193,208,0.91,public: class EXWnd * __thiscall EXBaseWnd::AddChild(class EXWnd *)
+0021f910,EXWnd,SCHED,683,688,0.88,public: __thiscall EXBaseWnd::EXBaseWnd(void)
+00221560,EXFileSys,STRUCT,124,128,0.73,protected: void __thiscall EXFileSys::WaitForFileCompletion(class EXFile const *) const
+002215e0,EXFileSys,STRUCT_CLOSE,119,112,0.76,"public: static void __cdecl EXFileSys::WaitSyncOnFile(class EXFile const *, signed char)"
+00221850,EXFileSys,STRUCT,255,208,0.81,public: void __thiscall EXFileSys::RemoveFile(class EXFile *)
+00221a50,EXFileSys,STRUCT_CLOSE,159,144,0.81,public: struct EXFILEINFO * __thiscall EXFileList::FindFile(unsigned int) const
+00221ae0,EXFileSys,STRUCT,74,96,0.90,public: struct EXFILEINFO * __thiscall EXFileList::FindFile(char const *) const
+00221f10,EXFileSys,REGALLOC,101,112,1.00,public: struct EXFILEINFO * __thiscall EXFileSys::GetFileInfo(class EXFile const *) const
+00222020,EXFileSys,STRUCT_CLOSE,96,96,0.92,"public: class EXFile * __thiscall EXFileSys::OnQueueFile(class EXFile *, unsigned int, signed char)"
+00226940,EXPhysicsSoft,STRUCT,886,896,0.42,"public: float __thiscall EXPParticle::CheckCollision(class EXVector const &, class EXVector const &, float, float)"
+00226cf0,EXPhysicsSoft,SCHED,181,192,0.93,"public: void __thiscall EXPClothEdge::SetParticles(class EXPParticle *, class EXPParticle *)"
+00227d50,EXPhysicsSoft,STRUCT_CLOSE,198,208,0.92,"public: void __thiscall EXPClothEdge::Draw(class EXWnd *, class EXMatrix const &) const"
+00229040,EXPhysicsSoft,SCHED,266,272,0.95,public: void __thiscall EXPCloth::Grab(class EXVector const &)
+002292f0,EXPhysicsSoft,STRUCT_CLOSE,946,928,0.83,protected: void __thiscall EXCloth2Base::UpdatePositions(float)
+00229690,EXPhysicsSoft,STRUCT_CLOSE,850,784,0.82,protected: void __thiscall EXCloth2Base::SatisfyConstraints(unsigned int)
+0022c7a0,EXPhysicsSoft,STRUCT_CLOSE,105,112,0.97,"public: void __thiscall EXPAttachedClothWS::DoClothCollision(class EXCollisionType *, unsigned int)"
+0022e150,EXPhysicsSoft,SCHED,278,288,0.96,public: __thiscall EXPCloth::EXPCloth(void)
+0022e270,EXPhysicsSoft,REGALLOC,66,80,1.00,public: __thiscall EXPAttachedClothWS::EXPAttachedClothWS(void)
+0022e430,EXPhysicsSoft,SCHED,101,112,0.96,public: static class EXPAttachedClothWS * __cdecl EXPAttachedClothWS::CreateObject(void)
+002334b0,EXSwoosh,SCHED,854,864,1.00,"public: signed char __thiscall EXBaseSwooshSys::Create(class EXGeoFile *, unsigned int, int, signed char, int)"
+00235150,EXParticle,SCHED,302,304,0.97,public: void __thiscall EXBaseParticleSys::CalculateMipSettings(void)
+00236a30,EXParticle,STRUCT,107,128,0.92,public: virtual void __thiscall EXBaseParticleSys::UpdateRenderInfo(class EXRenderInfo const &)
+00237ba0,EXParticle,STRUCT,171,256,0.58,"public: class EXParticleSys * __thiscall EXParticleSysMgr::CreateSystem(unsigned int, struct EXRuntimeClass const *, cla"
+0023a5d0,EXParticle,STRUCT,166,176,0.74,public: virtual signed char __thiscall EXBaseParticleSys::Update(class EXItemAnimator *)
+0023d6e0,XBCollision,STRUCT_CLOSE,88,96,0.83,public: class EXTexture * __thiscall EXGeoEntity_FaceRef::Texture(void) const
+0023d750,XBCollision,STRUCT_CLOSE,154,160,0.94,private: class ex::RGBA __thiscall EXGeoEntity_FaceRef::MakeRGBA(class EXVector const &) const
+0023f3e0,EXGeoMap,STRUCT,54,64,0.90,public: static void __cdecl EXBaseRenderEnv::SetLightSet(float)
+00241e20,EXGeoMap,STRUCT_CLOSE,2813,2720,0.82,"public: float __thiscall EXGeoPortal::DistanceTo(class EXVector const &, class EXVector &) const"
+002444f0,EXGeoMap,SCHED,163,176,0.97,public: int __thiscall EXGeoNodeArray<class EXGeoPath>::FindIndex(unsigned int) const
+002445a0,EXGeoMap,SCHED,163,176,0.97,public: int __thiscall EXGeoNodeArray<class EXGeoLight>::FindIndex(unsigned int) const
+00244650,EXGeoMap,SCHED,161,176,0.97,public: int __thiscall EXGeoNodeArray<struct EXGeoCamera>::FindIndex(unsigned int) const
+00244700,EXGeoMap,SCHED,161,176,0.97,public: int __thiscall EXGeoNodeArray<struct EXGeoSpecial>::FindIndex(unsigned int) const
+00244cc0,EXGeoMap,STRUCT_CLOSE,366,368,0.97,"public: virtual void __thiscall EXGeoMap::OnDelete(class EXGeoHeader *, class EXGeoObjectHeader *)"
+00244e30,EXGeoMap,STRUCT_CLOSE,1895,1936,0.97,"public: void __thiscall EXGeoMap::DrawZone(class EXMapZoneInfoTable *, class EXMapZoneInfo *, class EXRenderInfo const &"
+00246da0,EXGeoMap,STRUCT_CLOSE,298,304,0.99,"public: unsigned int __thiscall EXGeoMap::GetMapZoneList(class EXVector const &, float, unsigned int *) const"
+00246ff0,EXGeoMap,STRUCT_CLOSE,769,816,0.94,"public: class EXVector __thiscall EXGeoMap::CalcLightsV(class EXVector const &, class EXVector const &, signed char, int"
+002492c0,EXDebugTree,STRUCT_CLOSE,275,288,0.97,"public: unsigned int __thiscall EXDebugTree::ItemHandle(char const *, unsigned int)"
+00249aa0,EXDebugTree,STRUCT_CLOSE,275,288,0.95,"public: virtual unsigned int __thiscall EXDebugTree::AddItem(char const *, unsigned int, unsigned int, enum EXDebugTree:"
+00249e60,EXDebugTree,STRUCT_CLOSE,230,240,0.96,"public: virtual unsigned int __thiscall EXDebugTree::AddSection(char const *, unsigned int, enum EXDebugTree::ADD_DUPLIC"
+00249f90,EXLine,STRUCT,644,816,0.61,"public: enum EXLineSeg::LINE_POS __thiscall EXLineSeg::NearestTo(class EXVector const &, class EXVector &) const"
+0024a7e0,EXMenu,SCHED,120,128,0.94,public: void __thiscall EXMenu::Close(void)
+0024a8b0,EXMenu,STRUCT_CLOSE,451,480,0.90,public: virtual signed char __thiscall EXMenuWnd::Draw(void)
+0024ad50,EXMenu,STRUCT_CLOSE,200,208,0.95,public: class EXMenuItem * __thiscall EXAllocator<class EXMenuItem>::Get(void)
+0024b0f0,EXMenu,STRUCT_CLOSE,513,480,0.83,public: __thiscall EXMenuWnd::EXMenuWnd(class EXMenu *)
+0024b2d0,EXMenu,SCHED,386,400,0.96,"public: void __thiscall EXMenu::Open(class EXWnd *, int, int)"
+0024b460,EXMenu,STRUCT_CLOSE,150,144,0.78,"protected: void __thiscall EXMenuWnd::ProcessItem(class EXMenuItem const *, class EXRect const &)"
+0024dfe0,XBWndSprite,SCHED,88,96,0.88,"class EXPointf __cdecl Rotate(float, class EXPointf)"
+0024e040,XBWndSprite,SCHED,116,128,0.96,"class EXPointf __cdecl CalcRotation(float, float, float, class EXPointf)"
+0024f770,XBWndPrim,SCHED,44,48,0.88,public: void __thiscall EXPolyController::Reset(void)
+002518a0,EXWString,REGALLOC,135,144,1.00,public: class EXWString & __thiscall EXWString::operator=(char const *)
+002519c0,EXWString,REGALLOC,100,112,1.00,public: class EXWString const & __thiscall EXWString::operator+=(char const *)
+00251cd0,EXWString,STRUCT_CLOSE,297,320,0.94,"public: class EXWString __thiscall EXWString::Token(int, unsigned short, signed char) const"
+00251ff0,EXWString,STRUCT_CLOSE,1034,1040,0.90,"public: short __cdecl EXWString::Format(unsigned short const *, ...)"
+002528c0,EXWString,SCHED,548,560,0.99,"public: int __thiscall EXWString::Tokenise(class EXWStringArray &, class EXWString const &, signed char) const"
+00252b60,EXRect,STRUCT_CLOSE,120,128,0.97,"class EXRect __cdecl IntersectRect(class EXRect const &, class EXRect const &)"
+00256dc0,XBBounds,STRUCT_CLOSE,694,720,0.98,"public: signed char __thiscall MXBoundsBox::_Intersect(class EXMaths::vec_xyzw const &, class EXMaths::vec_xyzw const &)"
+00257840,EXPhysicsFluid,STRUCT_CLOSE,487,496,0.96,"public: signed char __thiscall EXPFluid::Hit(int, int, float, float) const"
+00257f00,EXPhysicsFluid,STRUCT_CLOSE,601,608,0.99,public: virtual signed char __thiscall EXPFluid::DoUpdate(void)
+002584e0,EXWndDebug,STRUCT_CLOSE,449,448,0.85,"public: void __cdecl EXBaseWnd::DbgPrint(char const *, ...)"
+00258a60,EXDebugWnd,STRUCT,67,80,0.77,"public: signed char __thiscall EXDebugDialogWnd::PointInButton(struct EXDialogButton const *, class EXPoint const &) con"
+00259c50,EXFile,STRUCT_CLOSE,117,128,0.80,public: int __thiscall EXFile::GetFilelength(void) const
+00259cd0,EXFile,SCHED,164,176,0.97,public: signed char __thiscall EXFile::OnLoad(class EXMemHeap *)
+0026c360,EXPlane,STRUCT_CLOSE,577,672,0.82,"public: __thiscall EXPlane::EXPlane(class EXVector const &, class EXVector const &, class EXVector const &)"
+0026ec30,XBGamepad,STRUCT,98,128,0.86,public: __thiscall EXGamePad::EXGamePad(void)
+0026ece0,XBGamepad,SCHED,117,128,0.97,public: void __thiscall EXGamePad::SetPadRumble(unsigned char)
+0026f310,XBGamepad,STRUCT_CLOSE,262,272,0.96,public: void __thiscall EXGamePad::Update(void)
+002718b0,EXItemPhysics,REGALLOC,91,96,1.00,public: static class EXItemPhysicsExt * __cdecl EXItemPhysicsExt::CreateObject(void)
+00271980,XBVector,STRUCT,47,64,0.81,"float const & __cdecl min3<float>(float const &, float const &, float const &)"
+002719c0,XBVector,STRUCT_CLOSE,513,528,0.99,public: signed char __thiscall EXMaths::vec_xyzw::PointInTriY(class EXMaths::vec_xyzw const *const) const
+00271e10,EXItemRender_Entity,REGALLOC,107,112,1.00,"private: static void __cdecl EXItemRender_Entity::CalcEntityGeoMorph(struct EXLodInfo *, class EXGeoEntityLod const *, f"
+00271e80,EXItemRender_Entity,STRUCT_CLOSE,544,560,0.99,"private: static unsigned int __cdecl EXItemRender_Entity::CalcEntityAlphaLod(struct EXLodInfo *, class EXGeoEntityLod co"
+002753b0,EXItemAnimator_Collision,REGALLOC,48,48,1.00,public: virtual void __thiscall EXItemAnimator_Collision::SetObjectTime(float)
+00275430,EXItemAnimator_Collision,STRUCT_CLOSE,218,224,0.93,"public: virtual void * __thiscall EXItemAnimator_Collision::GetDatum(unsigned int, struct EXDatumTemp &, unsigned int, v"
+00275eb0,EXItemAnimator_ScriptControllers,STRUCT_CLOSE,203,208,0.91,"protected: void __thiscall EXScriptThread::UpdateThread_TextureAnimController(struct EXGeoScriptControllerHeader *&, str"
+00276740,EXItemAnimator_ScriptControllers,SCHED,286,288,0.98,public: static unsigned int __cdecl EXScriptController::UpdateThread_FloatController(struct EXGeoScriptControllerHeader 
+00276860,EXItemAnimator_ScriptControllers,STRUCT,404,496,0.89,public: static unsigned int __cdecl EXScriptController::UpdateThread_VectorController(struct EXGeoScriptControllerHeader
+002771b0,EXItemAnimator_ScriptControllers,STRUCT_CLOSE,303,304,0.90,"protected: void __thiscall EXScriptThread::UpdateThread_VertexSetController(struct EXGeoScriptControllerHeader *&, struc"
+002772e0,EXItemAnimator_ScriptControllers,SCHED,134,144,0.96,"protected: void __thiscall EXScriptThread::UpdateThread_TextureSwapController(struct EXGeoScriptControllerHeader *&, str"
+002774d0,EXItemAnimator_ScriptControllers,SCHED,298,304,0.99,"protected: void __thiscall EXScriptThread::UpdateThread_CameraControllers(struct EXGeoScriptControllerHeader *&, struct "
+002778b0,EXItemAnimator_DynLight,SCHED,155,160,0.98,public: void __thiscall EXDynLight::SetPos(class EXVector const &)
+002779c0,EXItemAnimator_DynLight,STRUCT_CLOSE,678,736,0.94,"public: virtual unsigned int __thiscall EXItemAnimator_DynLight::DoRender(class EXMatrix const &, class EXRenderInfo con"
+00278610,EXItemCtrl_AnimModifier,STRUCT_CLOSE,737,752,0.99,"protected: signed char __thiscall EXItemCtrl_AnimModifier::RecursiveResetVelocities(class EXMatrix, class EXItemRender_S"
+00279380,EXItemCtrl_SnapShot,REGALLOC,130,144,1.00,private: virtual signed char __thiscall EXItemCtrl_SnapShot::Initialise(class EXItemAnimator_Anim *)
+00279690,EXItemCtrl_SnapShot,REGALLOC,465,480,1.00,"public: void __thiscall EXItemCtrl_SnapShot::ApplyXForm(class EXVector const &, class EXQuaternion const &)"
+0027a380,EXBounds,STRUCT_CLOSE,705,704,0.98,"public: signed char __thiscall EXBoundsBox3::Intersect(class EXVector const &, class EXVector const &) const"
+0027a770,EXVector,STRUCT_CLOSE,594,608,0.99,"public: static void __cdecl EXVector::GenerateOrthonormalBasis(class EXVector &, class EXVector &, class EXVector &, sig"
+0027b2e0,EXCollisionTypes,STRUCT_CLOSE,192,192,0.77,"public: void __thiscall EXBox2::ComputeVertices(class EXFixedArray<class EXVector2, 4> &) const"
+0027bef0,EXCollisionTypes,REGALLOC,3445,3456,1.00,"public: void __thiscall EXBox::ComputeVertices(class EXFixedArray<class EXMaths::vec_xyzw, 8> &) const"
+0027ccc0,EXCollisionTypes,STRUCT_CLOSE,747,752,0.93,public: void __thiscall EXCapsule::GetBoundsBox(struct EXBoundsBox &) const
+0027d060,EXCollisionTypes,REGALLOC,1293,1296,1.00,public: void __thiscall EXLozenge::GetBoundsBox(struct EXBoundsBox &) const
+0027d5f0,EXCollisionTypes,STRUCT_CLOSE,891,896,0.95,public: void __thiscall EXCylinder::GetBoundsBox(struct EXBoundsBox &) const
+0027e150,EXLightManager,STRUCT_CLOSE,176,192,0.97,"public: void __thiscall EXDynLight::SetDirPointLight(struct ex::XRGBA, class EXVector const &, class EXVector const &, f"
+0027e210,EXLightManager,STRUCT_CLOSE,170,176,0.93,"public: void __thiscall EXDynLight::SetDirPointLight(struct ex::XRGBA, class EXVector const &, float, float)"
+0027e310,EXLightManager,SCHED,103,112,0.97,public: __thiscall EXLightManager::EXLightManager(void)
+00280d80,EXItemAnimator_Map,STRUCT_CLOSE,78,80,0.97,"public: signed char __thiscall EXMapZoneInfo::SetZoneLoaded(class EXGeoHeader const *, signed char)"
+00280e00,EXItemAnimator_Map,SCHED,160,160,0.98,public: __thiscall EXMapPlacement::EXMapPlacement(void)
+00280ed0,EXItemAnimator_Map,SCHED,269,272,0.97,"public: signed char __thiscall EXMapPlacement::GetDatum(unsigned int, struct EXDatumTemp &, unsigned int)"
+00282400,EXItemAnimator_Map,STRUCT_CLOSE,155,176,0.94,"public: signed char __thiscall EXMapZoneInfoTable::InitialiseMapZonePlacements(class EXGeoHeader const *, class EXGeoZon"
+002825b0,EXItemAnimator_Map,STRUCT,30,48,0.96,public: void * __thiscall EXMapZoneInfo::`scalar deleting dtor'(unsigned int)
+002825e0,EXItemAnimator_Map,STRUCT,35,96,0.53,"void __cdecl DestructElements<class EXMapZoneInfo>(class EXMapZoneInfo *, int)"
+002828c0,EXItemAnimator_Map,STRUCT_CLOSE,268,272,0.91,public: __thiscall EXMapZoneInfoTable::~EXMapZoneInfoTable(void)
+00282cd0,EXItemAnimator_Map,STRUCT,146,160,0.74,"public: virtual signed char __thiscall EXItemAnimator_Map::Initialise(class EXGeoFile *, unsigned int)"
+00283100,EXTexture,STRUCT_CLOSE,322,336,0.87,protected: signed char __thiscall EXTextureArray::InitBlockUse(void)
+00283250,EXTexture,STRUCT_CLOSE,507,512,0.98,public: int __thiscall EXTextureArray::NewTexture(void)
+00284c60,XBBenchmark,STRUCT_CLOSE,217,240,0.94,public: void __thiscall XBBaseBenchMark::DisplayCPUTimer(void)
+00284d50,XBBenchmark,STRUCT,94,112,0.81,public: void __thiscall XBBaseBenchMark::DisplayGPUTimer(void)
+00285af0,XBFile,REGALLOC,179,192,1.00,public: virtual signed char __thiscall EXTextFile::ReadString(class EXString &)
+00285d50,EXStdFuncs,REGALLOC,33,48,1.00,"unsigned short * __cdecl Wcscpy(unsigned short *, unsigned short const *)"
+0028c5a0,XBGeoEntity,SCHED,445,448,0.99,"public: virtual void * __thiscall EXGeoEntity::GetVertexBuffer(class EXGDiData *, signed char)"
+0028cdb0,XBGeoEntity,STRUCT_CLOSE,158,160,0.94,public: void __thiscall EXGeoEntity::CreateDeformerVertexBuffers(void)
+0028ce50,XBGeoEntity,STRUCT_CLOSE,158,160,0.95,public: void __thiscall EXGeoEntity::CreateDeformerVertexSetBuffers(void)
+0028cef0,XBGeoEntity,STRUCT_CLOSE,78,80,0.76,public: struct xb::D3DVertexBuffer * __thiscall EXGeoEntity::GetDefVertexBuffer(unsigned int)
+0028cf40,XBGeoEntity,STRUCT_CLOSE,80,80,0.76,public: struct xb::D3DVertexBuffer * __thiscall EXGeoEntity::GetXYZVertexBuffer(unsigned int)
+002911c0,XBGeoEntity,STRUCT_CLOSE,137,144,0.87,public: void __thiscall EXGeoEntity::ReleaseDeformerVertexBuffers(void)
+00295000,EXGeoEntity_NavMesh,STRUCT_CLOSE,204,208,0.95,"public: virtual int __thiscall EXGeoNavMeshBaseEntity::GetTriangle(class EXVector const &, class EXVector const &, int, "
+00295130,EXGeoEntity_NavMesh,SCHED,272,272,0.98,"public: class ExNavPathBase * __thiscall EXGeoNavMeshBaseEntity::GeneratePathDepthFirst(int, int, int)"
+002953a0,EXGeoEntity_NavMesh,STRUCT_CLOSE,231,224,0.79,public: class EXVector3 __thiscall EXGeoNavMeshBaseEntity::GenerateCentre(int) const
+00295590,EXGeoEntity_NavMesh,STRUCT_CLOSE,221,224,0.98,"public: virtual float __thiscall ExNavCostBase::EstimateCost(class EXGeoNavMeshBaseEntity *, int, int)"
+0029e750,EXGeoInstance,STRUCT_CLOSE,243,272,0.83,public: void __thiscall EXInstanceManager::RenderInstances(void)
+0029ea50,EXGeoInstance,STRUCT_CLOSE,381,400,0.86,"public: class EXInstanceInfo * __thiscall EXInstanceManager::Instance(class EXGeoHeader *, unsigned int, unsigned int)"
+0029ebe0,EXGeoInstance,STRUCT_CLOSE,422,448,0.88,"public: class EXInstanceInfo * __thiscall EXInstanceManager::AllocInstanceBuffer(class EXGeoHeader *, unsigned int, unsi"
+002a6480,XBPhysics,STRUCT,355,384,0.62,public: void __thiscall EXPClothEdge::SatisfyConstraints(void)
+002a6600,XBPhysics,STRUCT,291,288,0.53,"void __cdecl XbSatisfyConstraints(class EXPParticle *, class EXPParticle *, float, float, float, float, float, float)"
+002a9820,EXParticleEmitter,STRUCT,161,160,0.66,public: class EXParticle_NR * __thiscall EXEmitter_NR::GetFreeParticle(class EXBaseParticleSys *)
+002a9990,EXParticleEmitter,STRUCT,161,160,0.66,public: class EXParticle_NRNS * __thiscall EXEmitter_NRNS::GetFreeParticle(class EXBaseParticleSys *)
+002a9bd0,EXParticleEmitter,STRUCT,161,160,0.66,public: class EXParticle_NRNC * __thiscall EXEmitter_NRNC::GetFreeParticle(class EXBaseParticleSys *)
+002b5050,EXWidget,REGALLOC,46,48,1.00,"protected: void __thiscall EXWidget::SelectFont(unsigned int, unsigned int) const"
+002b51d0,EXWidget,STRUCT_CLOSE,111,128,0.85,public: virtual void __thiscall EXWidget::Move(class EXPoint const &)
+002b52f0,EXWidget,STRUCT,84,160,0.74,public: virtual void __thiscall EXWidgetImage::SetRect(class EXRect const &)
+002b5400,EXWidget,STRUCT,258,256,0.74,public: virtual unsigned int __thiscall EXWidgetWindow::HitTest(class EXPoint const &)
+002b5580,EXWidget,STRUCT_CLOSE,93,96,0.85,public: virtual unsigned int __thiscall EXWidgetScroll::HitTest(class EXPoint const &)
+002b5650,EXWidget,STRUCT_CLOSE,191,208,0.94,public: virtual unsigned int __thiscall EXWidgetSpinList::HitTest(class EXPoint const &)
+002b5720,EXWidget,REGALLOC,83,96,1.00,"public: virtual void __thiscall EXWidgetTextCmd::SetFont(unsigned int, unsigned int)"
+002b5800,EXWidget,STRUCT,107,128,0.90,"public: void __thiscall EXWidgetPage::SetMouseInput(signed char, signed char, class EXPoint const &)"
+002b5ce0,EXWidget,STRUCT,34,32,0.54,public: virtual class EXRect __thiscall EXWidget::GetRect(void) const
+002b5d40,EXWidget,STRUCT,34,32,0.54,public: virtual class EXRect __thiscall EXWidget::FitInToRect(class EXRect const &) const
+002b6280,EXWidget,PLACEHOLDER,5,528,0.00,"public: virtual int __thiscall EXWidget::SendMsg(unsigned int, int, int, int, int)"
+002b6490,EXWidget,PLACEHOLDER,33,176,0.00,public: virtual class EXRect __thiscall EXWidgetText::FitInToRect(class EXRect const &) const
+002b6540,EXWidget,PLACEHOLDER,3,112,0.00,public: virtual void __thiscall EXWidgetText::SetCaption(char const *)
+002b65b0,EXWidget,PLACEHOLDER,1,96,0.00,public: virtual void __thiscall EXWidgetText::Draw(void)
+002b6610,EXWidget,PLACEHOLDER,5,352,0.00,"public: virtual int __thiscall EXWidgetText::SendMsg(unsigned int, int, int, int, int)"
+002b6770,EXWidget,PLACEHOLDER,1,96,0.00,public: virtual void __thiscall EXWidgetImage::Draw(void)
+002b67d0,EXWidget,PLACEHOLDER,5,208,0.00,"public: virtual int __thiscall EXWidgetImage::SendMsg(unsigned int, int, int, int, int)"
+002b68a0,EXWidget,PLACEHOLDER,3,1024,0.00,public: virtual void __thiscall EXWidgetWindow::SetRect(class EXRect const &)
+002b6ca0,EXWidget,PLACEHOLDER,1,288,0.00,public: virtual void __thiscall EXWidgetWindow::Draw(void)
+002b6dc0,EXWidget,PLACEHOLDER,5,432,0.00,"public: virtual int __thiscall EXWidgetWindow::SendMsg(unsigned int, int, int, int, int)"
+002b6f70,EXWidget,PLACEHOLDER,1,432,0.00,protected: void __thiscall EXWidgetScroll::SetTracker(void)
+002b7120,EXWidget,PLACEHOLDER,3,608,0.00,public: virtual void __thiscall EXWidgetScroll::SetRect(class EXRect const &)
+002b7380,EXWidget,PLACEHOLDER,5,64,0.00,"public: signed char __thiscall EXWidgetScroll::SetTrackSize(int, int, int)"
+002b73c0,EXWidget,PLACEHOLDER,5,176,0.00,"public: signed char __thiscall EXWidgetScroll::SetTrack(int, signed char, signed char)"
+002b7470,EXWidget,PLACEHOLDER,1,80,0.00,public: virtual void __thiscall EXWidgetScroll::Draw(void)
+002b74c0,EXWidget,PLACEHOLDER,3,720,0.00,"protected: void __thiscall EXWidgetListBox::RecalculateContents(int, int)"
+002b7790,EXWidget,PLACEHOLDER,3,32,0.00,protected: void __thiscall EXWidgetListBox::RecalculateTrack(int)
+002b77b0,EXWidget,PLACEHOLDER,3,320,0.00,"protected: void __thiscall EXWidgetListBox::BroadcastMsg2Contents(unsigned int, int, int, int, int, signed char)"
+002b78f0,EXWidget,PLACEHOLDER,3,80,0.00,public: virtual void __thiscall EXWidgetListBox::Move(class EXPoint const &)
+002b7940,EXWidget,PLACEHOLDER,3,400,0.00,public: virtual void __thiscall EXWidgetListBox::SetRect(class EXRect const &)
+002b7ad0,EXWidget,PLACEHOLDER,1,304,0.00,public: virtual void __thiscall EXWidgetListBox::Draw(void)
+002b7c70,EXWidget,PLACEHOLDER,5,304,0.00,"public: virtual unsigned int __thiscall EXWidgetListBox::SetCurSel(int, signed char)"
+002b7da0,EXWidget,PLACEHOLDER,3,368,0.00,public: virtual void __thiscall EXWidgetSpinList::SetRect(class EXRect const &)
+002b7f10,EXWidget,PLACEHOLDER,30,144,0.00,public: virtual class EXRect __thiscall EXWidgetSpinList::GetRect(void) const
+002b7fa0,EXWidget,PLACEHOLDER,1,288,0.00,public: virtual void __thiscall EXWidgetSpinList::Draw(void)
+002b80c0,EXWidget,PLACEHOLDER,3,256,0.00,"public: void __thiscall EXWidgetSpinList::RollUp(signed char, signed char)"
+002b81c0,EXWidget,PLACEHOLDER,3,64,0.00,public: signed char __thiscall EXWidgetSpinList::Next(void)
+002b8200,EXWidget,PLACEHOLDER,3,80,0.00,public: signed char __thiscall EXWidgetSpinList::Prev(void)
+002b8250,EXWidget,PLACEHOLDER,5,80,0.00,"public: virtual unsigned int __thiscall EXWidgetSpinList::SetCurSel(int, signed char)"
+002b82a0,EXWidget,PLACEHOLDER,3,64,0.00,private: void __thiscall EXWidgetSpinList::ConvertPtToBack(class EXPoint &) const
+002b82e0,EXWidget,PLACEHOLDER,5,1504,0.00,"public: virtual int __thiscall EXWidgetSpinList::SendMsg(unsigned int, int, int, int, int)"
+002b88c0,EXWidget,PLACEHOLDER,3,224,0.00,private: void __thiscall EXWidgetTextCmd::PushCmd(char const *)
+002b89a0,EXWidget,PLACEHOLDER,3,384,0.00,public: virtual void __thiscall EXWidgetTextCmd::SetRect(class EXRect const &)
+002b8b20,EXWidget,PLACEHOLDER,5,112,0.00,private: int __thiscall EXWidgetTextCmd::GetCommandInd(int)
+002b8b90,EXWidget,PLACEHOLDER,5,112,0.00,public: char * __thiscall EXWidgetTextCmd::GetCommand(int)
+002b8c00,EXWidget,STRUCT_CLOSE,68,80,0.94,"public: class EXWidget * __thiscall EXWidgetPage::Find(unsigned int, signed char)"
+002b8c50,EXWidget,PLACEHOLDER,1,112,0.00,public: virtual void __thiscall EXWidgetPage::Draw(void)
+002b8cc0,EXWidget,PLACEHOLDER,3,112,0.00,public: virtual void __thiscall EXWidgetPage::Move(class EXPoint const &)
+002b8d30,EXWidget,PLACEHOLDER,3,128,0.00,public: void __thiscall EXWidgetPage::SetFocus(unsigned int)
+002b8e30,EXWidget,PLACEHOLDER,3,624,0.00,"public: void __thiscall EXWidgetPage::Update(float, signed char)"
+002b97b0,EXWidget,PLACEHOLDER,3,416,0.00,public: void __thiscall EXWidgetScroll::ThumbTrack(class EXPoint const &)
+002b9950,EXWidget,PLACEHOLDER,1,640,0.00,public: virtual void __thiscall EXWidgetTextCmd::Draw(void)
+002b9bd0,EXWidget,PLACEHOLDER,5,768,0.00,"public: virtual int __thiscall EXWidgetTextCmd::SendMsg(unsigned int, int, int, int, int)"
+002ba160,EXWidget,STRUCT,103,192,0.69,public: virtual __thiscall EXWidgetPage::~EXWidgetPage(void)
+002ba400,EXWidget,PLACEHOLDER,5,288,0.00,"public: int __thiscall EXWidgetListBox::AddItem(class EXWidget *, void *)"
+002ba520,EXWidget,PLACEHOLDER,1,112,0.00,public: void __thiscall EXWidgetListBox::ResetContent(void)
+002ba590,EXWidget,PLACEHOLDER,5,1072,0.00,"public: virtual int __thiscall EXWidgetListBox::SendMsg(unsigned int, int, int, int, int)"
+002ba9c0,EXWidget,PLACEHOLDER,5,64,0.00,"public: int __thiscall EXWidgetSpinList::AddItem(class EXWidget *, void *)"
+002baa00,EXWidget,PLACEHOLDER,5,560,0.00,private: class EXWidget * __thiscall EXWidgetPage::FocusChange(unsigned int)
+002bac50,EXWidget,PLACEHOLDER,5,784,0.00,"public: int __thiscall EXWidgetPage::SendMsg(unsigned int, unsigned int, int, int, int, int)"
+002baf60,EXWidget,STRUCT_CLOSE,96,112,0.91,void __cdecl LoadDefaultGlyphs(void)
+002bb110,EXWidget,STRUCT_CLOSE,222,256,0.78,"public: __thiscall EXWidget::EXWidget(class EXBaseWnd *, unsigned int, unsigned int, struct EXSprite2D *, unsigned short"
+002bb410,EXWidget,REGALLOC,241,256,1.00,"public: __thiscall EXWidgetImage::EXWidgetImage(class EXBaseWnd *, unsigned int, unsigned int, unsigned int, class EXRec"
+002bb560,EXWidget,STRUCT,30,48,0.96,public: virtual void * __thiscall EXWidgetImage::`scalar deleting dtor'(unsigned int)
+002bb590,EXWidget,STRUCT_CLOSE,184,176,0.92,"public: __thiscall EXWidgetWindow::EXWidgetWindow(class EXBaseWnd *, unsigned int, unsigned int)"
+002bb6f0,EXWidget,STRUCT_CLOSE,203,208,0.98,"public: signed char __thiscall EXWidgetButton::SetState(signed char, signed char)"
+002bb7c0,EXWidget,PLACEHOLDER,5,384,0.00,"public: virtual int __thiscall EXWidgetButton::SendMsg(unsigned int, int, int, int, int)"
+002bba80,EXWidget,PLACEHOLDER,5,224,0.00,"public: virtual int __thiscall EXWidgetCheckBox::SendMsg(unsigned int, int, int, int, int)"
+002bbb60,EXWidget,STRUCT,312,480,0.46,"public: __thiscall EXWidgetScroll::EXWidgetScroll(class EXBaseWnd *, unsigned int, signed char, unsigned int, unsigned i"
+002bbd40,EXWidget,PLACEHOLDER,5,1328,0.00,"public: virtual int __thiscall EXWidgetScroll::SendMsg(unsigned int, int, int, int, int)"
+002bc270,EXWidget,STRUCT,187,304,0.78,"public: __thiscall EXWidgetListBox::EXWidgetListBox(class EXBaseWnd *, unsigned int, signed char, unsigned int, unsigned"
+002bc420,EXWidget,STRUCT_CLOSE,58,64,0.90,public: virtual void __thiscall EXWidgetListBox::SetTextScale(float)
+002bc460,EXWidget,STRUCT,63,80,0.88,"public: virtual void __thiscall EXWidgetListBox::SetFont(unsigned int, unsigned int)"
+002bc4b0,EXWidget,STRUCT_CLOSE,60,64,0.87,public: virtual void __thiscall EXWidgetListBox::SetTextAlignment(enum EXW::TextAlign)
+002bc4f0,EXWidget,STRUCT_CLOSE,132,144,0.97,public: virtual __thiscall EXWidgetListBox::~EXWidgetListBox(void)
+002bc580,EXWidget,STRUCT,358,496,0.61,"public: __thiscall EXWidgetSpinList::EXWidgetSpinList(class EXBaseWnd *, unsigned int, unsigned int, unsigned int, unsig"
+002bc890,EXWidget,PLACEHOLDER,129,464,0.00,"public: __thiscall EXWidgetTextCmd::EXWidgetTextCmd(class EXBaseWnd *, unsigned int, unsigned int)"
+002bcb60,EXWidget,STRUCT,95,240,0.65,"public: __thiscall EXWidgetPage::EXWidgetPage(class EXBaseWnd *, unsigned int, unsigned short)"
+002bdb20,XBAudio,STRUCT,33,48,0.89,public: virtual void __thiscall EXAudio::psiAsyncDeleteBuffer(char *)
+002bdc30,XBAudio,STRUCT,33,48,0.89,public: virtual float __thiscall EXAudio::psiSquareRoot(float)
+002bdd40,EXAudioVoice,REGALLOC,129,144,1.00,public: void __thiscall Voice::NormalisePoint3(struct SFXPoint3 *)
+002be5a0,EXAudioVoice,STRUCT_CLOSE,353,368,0.94,public: void __thiscall Voice::UpdateVolumes_Stereo_(void)
+002be9a0,EXAudioVoice,SCHED,217,224,0.97,"public: int __thiscall EXAudioVoiceManager::FxCreate(void *, int, int, int, bool, int, bool)"
+002bf250,EXAudioVoice,STRUCT_CLOSE,726,720,0.91,public: void __thiscall Voice::Calculate3dVolume(void)
+002c0460,EXAudioBase,STRUCT,91,80,0.54,private: void __thiscall EXAudioBase::ES_SFXListInitialise(void)
+002c1380,EXAudioBase,SCHED,67,80,0.91,"public: void __thiscall EXAudioBase::SFXInitialise2(struct XFileHandle *, struct XFileHandle *)"
+002c2c90,EXAudioBase,STRUCT,35,48,0.73,public: int __thiscall EXAudio_Voice::ES_psiFindVoiceHandle(void)
+002c6ea0,EXAudioMixer,STRUCT_CLOSE,433,448,0.95,"public: void __thiscall revmodel::process(float, float &, float &)"
+002c7340,EXAudioMixer,SCHED,942,944,0.96,"public: void __thiscall AudioMixer::Mix_FiveOne(short *, short *, short *, short *, short *)"
+002c7b00,EXFileManager,STRUCT_CLOSE,212,224,0.94,"protected: int __thiscall AsyncFile::OpenFile_(int, struct XFileHandle *)"
+002c7c70,EXFileManager,STRUCT_CLOSE,211,224,0.91,"public: void __thiscall AsyncFile::ReadFile(int, int, int, char *, unsigned int)"
+002ce430,EXAudioCodec,STRUCT_CLOSE,496,496,0.83,public: virtual void __thiscall EXAudioCodec_ADPCM::Decode_(void)
+002cebb0,EXAudioADPCM,STRUCT_CLOSE,344,368,0.83,"void __cdecl ADPCM_Decrunch(void const *, void *, int, int, int)"
+002ced20,EXAudioADPCM,REGALLOC,129,133,1.00,int __cdecl ADPCM_Init(void)
+002e45f0,EXWidget,PLACEHOLDER,1,112,0.00,_$E5
+002e7050,EXGeoFile,STRUCT,12,16,0.00,_$E4

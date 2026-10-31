@@ -1,0 +1,244 @@
+# Assert expressions in the Aug 2004 prototype (Predator.xbe), each tagged with the nearest preceding source-file string in .rdata
+# (approximate: an assert may belong to the next file instead). Use them for original identifier and macro names.
+?	0
+\game\Predator\Code\Actor.cpp	m_Count < 31
+\game\predator\code\NavMeshHdlr.h	bSuccess
+\game\predator\code\NavMeshHdlr.h	pActorBase
+\game\Predator\Code\ActorCarry.cpp	pWeaponProf
+\game\Predator\Code\ActorCarry.cpp	pActor
+\game\Predator\Code\ActorCarry.cpp	index >= 0 && index <SM_RegWords
+\game\predator\code\ActorStateMachine.h	index >= 0 && index <(SM_RegWords-3)
+\game\predator\code\ActorStateMachine.h	pTargetActor
+\game\Predator\Code\ActorCombat.cpp	piStrikeAvailable
+\game\Predator\Code\ActorCombat.cpp	POI_Index >= 1 && POI_Index < POI_MAX_LIST
+\game\Predator\Code\ActorLocation.cpp	FirstFree < POI_MAX_GROUP
+\game\Predator\Code\ActorLocation.cpp	DelaySpawnCount<MAX_DELAY_SPAWN
+\game\Predator\Code\ActorLocation.cpp	Count++ <= AP_MaxSkins
+\game\Predator\Code\ActorProfile.cpp	m_pData
+\game\Predator\Code\ActorProfile.cpp	this
+\game\enginex\EXArray.h	false
+\game\Predator\Code\ActorTimeTable.cpp	(u32)i < m_NumItemLists
+\game\Predator\Code\ActorTimeTable.cpp	m_pMovieWnd
+\game\Predator\Code\App.cpp	pBlock
+\game\Predator\Code\App.cpp	ViewIndex==0
+\game\Predator\Code\Camera.cpp	isValidFloat(m_TargetPos.x)
+\game\Predator\Code\Camera.cpp	isValidFloat(m_vctPos.x)
+\game\Predator\Code\FEHud.cpp	m_pInstance
+\game\Predator\Code\FEHud.cpp	m_WaypointCount[m_WaypointBufferIndex] < FE_MaxWaypoints
+\game\Predator\Code\FELang.cpp	MemCardDlgIsOn()
+\game\Predator\Code\FELang.cpp	m_pOwnerWnd
+\game\Predator\Code\FELang.cpp	Object
+\game\Predator\Code\FELang.cpp	Index<m_Count
+\game\Predator\Code\FELayout.cpp	m_pObj
+\game\Predator\Code\FELayout.cpp	m_pOwnerWnd != 0
+\game\Predator\Code\FELevels.cpp	! m_pInstance
+\game\Predator\Code\FENavigator.cpp	pOrigin
+\game\Predator\Code\FENavigator.cpp	pListener
+\game\Predator\Code\FEObject.cpp	pScript
+\game\Predator\Code\FEObject.cpp	pKey
+\game\Predator\Code\FEScript.cpp	m_Marker
+\game\Predator\Code\FEWnd.cpp	(MaxVal >= 0)
+\game\Predator\Code\GameData.cpp	strlen(pMessage) < 300
+\game\Predator\Code\GameData.cpp	m_pWnd
+\game\Predator\Code\GeoSectionManager.cpp	m_SubSection >= 0
+\game\Predator\Code\GeoSectionManager.cpp	type >= 0 && type <= 2
+\game\Predator\Code\Honour.cpp	pSect
+\game\Predator\Code\NavMesh.cpp	iCount<3
+\game\Predator\Code\NavMesh.cpp	PointInPolygon3D(traverse.vFrom, traverse.iCurrentPoly)
+\game\Predator\Code\NavMesh.cpp	traverse.iCurrentPoly>=0
+\game\Predator\Code\NavMesh.cpp	(iOffset<m_Section.m_wNodes && iToNode<m_Section.m_wNodes)
+\game\Predator\Code\NavNetwork.cpp	(wNewNode<NodeCount())
+\game\Predator\Code\NavNetwork.cpp	(iFromNode<NodeCount() && iToNode<NodeCount())
+\game\Predator\Code\NavNetwork.cpp	iCount<10000
+\game\Predator\Code\NavNetwork.cpp	pNextNode
+\game\Predator\Code\NavNetwork.cpp	pNode
+\game\Predator\Code\NavNetwork.cpp	(loopcount++<10000)
+\game\Predator\Code\NavNetwork.cpp	loopcount<10000
+\game\Predator\Code\NavNetwork.cpp	iPoly>=0
+\game\Predator\Code\NavRoute3D.cpp	oHdl->m_NumIncoming <= MAX_INCOMING_OBJECTIVES
+\game\Predator\Code\Objective.cpp	FALSE
+\game\Predator\Code\Text.cpp	state==_vms::AT_LANE_BLOCK
+\game\predator\code\VehicleMove.h	index<MAX_DEST_CROSSED_PATHLINKS
+\game\predator\code\Traffic.h	index<numIntersections
+\game\predator\code\Traffic.h	turnDir<MAX_TURN_DIRS
+\game\predator\code\Traffic.h	_dir<MAX_LANE_DIRS
+\game\predator\code\Traffic.h	numIntersections<MAX_TRAFFIC_LIGHT_INTERSECTIONS
+\game\predator\code\Traffic.h	relDir<MAX_TURN_DIRS
+\game\predator\code\Traffic.h	i<sys()->getNumPathLinks()
+\game\predator\code\Traffic.h	num < MAX_TRIGGERS
+\game\predator\code\Traffic.h	index < numIntersections
+\game\predator\code\Traffic.h	numIntersections < 255
+\game\predator\code\Traffic.h	numIntersections < intersections.Size()
+\game\Predator\Code\Traffic.cpp	index < numRoads
+\game\Predator\Code\Traffic.cpp	numRoads < 255
+\game\Predator\Code\Traffic.cpp	numRoads < roads.Size()
+\game\Predator\Code\Traffic.cpp	node < numAdditionalPathNodes
+\game\Predator\Code\Traffic.cpp	numAdditionalPathNodes < additionalPathNodes.Size()
+\game\Predator\Code\Traffic.cpp	link < numAdditionalPathLinks[dir]
+\game\Predator\Code\Traffic.cpp	index < numBoxJunctions
+\game\Predator\Code\Traffic.cpp	i<getLocs().Size()
+\game\Predator\Code\Traffic.cpp	numIntersections < MAX_INTERSECTIONS_PER_LANE
+\game\Predator\Code\Traffic.cpp	numAIBlockedSegs < MAX_AI_BLOCKED_SEGS_PER_LANE
+\game\Predator\Code\Traffic.cpp	pRoad && pLane
+\game\Predator\Code\Traffic.cpp	(s32)node>=0
+\game\Predator\Code\Traffic.cpp	isLanesPath()
+\game\Predator\Code\Traffic.cpp	index < numVehicles
+\game\Predator\Code\Traffic.cpp	i<numPathLinks
+\game\Predator\Code\Traffic.cpp	i<numLanes[d]
+\game\Predator\Code\Traffic.cpp	pLink->isLastLink()
+\game\Predator\Code\Traffic.cpp	numAdditionalPathLinks[dir] < additionalPathLinks[dir].Size()
+\game\Predator\Code\Traffic.cpp	numBoxJunctions < boxJunctions.Size()
+\game\Predator\Code\Traffic.cpp	numPathLinks != MAX_PATHLINKS_PER_LANE
+\game\Predator\Code\Traffic.cpp	numDests<15
+\game\Predator\Code\Traffic.cpp	numLanes[dir] != MAX_LANES_PER_ROAD_PER_DIR
+\game\Predator\Code\Traffic.cpp	dir < MAX_LANE_DIRS
+\game\Predator\Code\Traffic.cpp	pPathLink2->Flags==0 && pPathLink2->Value[0]==0 && pPathLink2->Value[1]==0 && pPathLink2->Value[2]==0 && pPathLink2->Value[3]==0
+\game\Predator\Code\Traffic.cpp	src > dest
+\game\Predator\Code\Traffic.cpp	p
+\game\Predator\Code\Traffic.cpp	numTrafficLights<MAX_TRAFFIC_LIGHTS
+\game\Predator\Code\Traffic.cpp	! ( Node(pPathLink->NodeB)->isRoot() )
+\game\Predator\Code\Traffic.cpp	! ( Node(pPathLink->NodeA)->isRoot() )
+\game\Predator\Code\Traffic.cpp	bRem
+\game\Predator\Code\Traffic.cpp	numRoads <= INITIAL_ROADS_NUM
+\game\Predator\Code\Traffic.cpp	pIntersection->getRoad() == pRoad
+\game\Predator\Code\Traffic.cpp	pIntersection->getPathLink()->getRoadIndex() == pRoad->getIndex()
+\game\Predator\Code\Traffic.cpp	pLane
+\game\Predator\Code\Traffic.cpp	pPathLink2
+\game\Predator\Code\Traffic.cpp	pNodeA->isRoot()
+\game\Predator\Code\Traffic.cpp	nodeAIntersectionDists
+\game\Predator\Code\Traffic.cpp	pIntersection2->getPathLink()->getNodeBPtr()->Position()==pIntersection->getPathLink()->getNodeBPtr()->Position()
+\game\Predator\Code\Traffic.cpp	pIntersection2->getPathLink()->getNodeBPtr()->Position()==pIntersection->getPathLink()->getNodeAPtr()->Position()
+\game\Predator\Code\Traffic.cpp	pRoad1->getNumLanes(pIntersection->getEndDir()) == pRoad2->getNumLanes(pI->getStartDir())
+\game\Predator\Code\Traffic.cpp	pIntersection->isRoadEnd() && pIntersection->getEndDir()==pLane->getDir()
+\game\Predator\Code\Traffic.cpp	!pIntersection2->getTrafficLight()
+\game\Predator\Code\Traffic.cpp	pTrLight
+\game\Predator\Code\Traffic.cpp	numTriggerLinks < 64
+\game\Predator\Code\Traffic.cpp	isValidPath()
+\game\Predator\Code\Traffic.cpp	OnMap != EXMapOn::Invalid
+\game\Predator\Code\Trigger.cpp	i<MAX_BOX_VEHICLES && (s8)(numVehicles)>=0
+\game\Predator\Code\Trigger.cpp	pObjective
+\game\Predator\Code\Vehicle.cpp	pEntity
+\game\Predator\Code\Vehicle.cpp	whatType != _vt::NOT_SET
+\game\Predator\Code\Vehicle.cpp	whatType < _vt::MAX
+\game\Predator\Code\Vehicle.cpp	t<MAX_ACCEL_TARGET_TYPES
+\game\Predator\Code\Vehicle.cpp	i<MAX_BOX_VEHICLES && numVehicles<=MAX_BOX_VEHICLES
+\game\Predator\Code\VehicleMove.cpp	isValidFloat(position)
+\game\Predator\Code\VehicleMove.cpp	numTargets<MAX_ACCEL_TARGETS
+\game\Predator\Code\VehicleMove.cpp	getPathLink()->getNodeAPtr()->getWidth() == getPathLink()->getNodeBPtr()->getWidth()
+\game\Predator\Code\VehicleMove.cpp	pSeg->getLane() == pCrossedLink->getLane()
+\game\Predator\Code\VehicleMove.cpp	checkFlagBit(_vmf::CHANGING_LANE)
+\game\Predator\Code\VehicleMove.cpp	numTargets>=CountBitsSet((u32)flags)
+\game\Predator\Code\VehicleMove.cpp	numTargets
+\game\Predator\Code\VehicleMove.cpp	!numTargets
+\game\Predator\Code\VehicleMove.cpp	rChk.getTimerCmp() != 0.0f
+\game\Predator\Code\VehicleMove.cpp	getNumLaneSegBlocks() == 0
+\game\Predator\Code\VehicleMove.cpp	pExitIntersection == getAtIntersection()
+\game\Predator\Code\VehicleMove.cpp	sys()->doesBoxJunctionContainPoint(pPath->Node(i)->Position())
+\game\Predator\Code\VehicleMove.cpp	!sys()->doesBoxJunctionContainPoint(pPath->Node(i)->Position())
+\game\Predator\Code\VehicleMove.cpp	param32<256
+\game\Predator\Code\VehicleMove.cpp	laneDist<=255
+\game\Predator\Code\VehicleMove.cpp	laneDist<256
+\game\Predator\Code\VehicleMove.cpp	turnDir!=STRAIGHT_ON
+\game\Predator\Code\VehicleMove.cpp	routeStopParams[2]<MAX_FLAG_CHANNELS
+\game\Predator\Code\VehicleMove.cpp	routeStopParams[1]<MAX_FLAG_CHANNELS
+\game\Predator\Code\VehicleMove.cpp	pMissionGuy
+\game\Predator\Code\VehicleMove.cpp	reaction.getReactingTo()
+\game\Predator\Code\VehicleMove.cpp	reaction.getMode()==_vr::REACTION_FINISHED
+\game\Predator\Code\VehicleMove.cpp	routeStopParams[0]<MAX_FLAG_CHANNELS
+\game\Predator\Code\VehicleMove.cpp	_pLane->getDir()==loc.getLane()->getDir()
+\game\Predator\Code\VehiclePos.cpp	_pLane && _pLane!=loc.getLane()
+\game\Predator\Code\VehiclePos.cpp	_pLane==NULL
+\game\Predator\Code\VehiclePos.cpp	pOtherInLane
+\game\Predator\Code\VehiclePos.cpp	pInLane
+\game\Predator\Code\XGamePad.cpp	ButtonArray[Index].Trigger == Trigger
+\game\Predator\Code\XGamePad.cpp	Index >= 0 && Index < (sizeof(ButtonArray) / sizeof(ButtonArray[0]))
+\game\Predator\Code\XGeoEntity_NavMesh.cpp	iVerts<16
+\game\Predator\Code\XGeoEntity_NavMesh.cpp	pBB
+\game\EngineX\EXMemoryManager.cpp	det != 0.0f
+\game\EngineX\EXMemoryManager.cpp	d != 0.0f
+\game\enginex\EXAllocator.h	Block.pBlock
+\game\EngineX\EXWString.cpp	pData
+\game\EngineX\EXWString.cpp	pNewData
+\game\EngineX\EXWString.cpp	nPrecision >= 0
+\game\EngineX\EXWString.cpp	nWidth >= 0
+\game\EngineX\EXWString.cpp	Bits==16 || Bits==32
+\game\EngineX\EXDisplay.cpp	m_iRunTimeTextureRefCount
+\game\EngineX\EXDisplay.cpp	TexNum>=0
+\game\EngineX\EXItemCtrl.cpp	m_UserItemGroups
+\game\EngineX\EXItemCtrl.cpp	(u32)i < 32
+\game\enginex\EXItem.h	(u32)i < m_NumItemGroupLists
+\game\EngineX\EXItemCtrl_Anim.cpp	nHandle < EXSM::SoundHandle_DataMask
+\game\EngineX\EXGeoFile.cpp	n < 256
+\game\EngineX\EXGeoFile.cpp	(pAddItem)->IsKindOf(EXRUNTIME_CLASS(EXItem))
+\game\EngineX\EXItemEnv.cpp	m_ItemGroups
+\game\EngineX\EXItemEnv.cpp	m_ItemList
+\game\EngineX\EXItemAnimator.cpp	m_pDbgText
+\game\EngineX\EXItemAnimator.cpp	pDbgText
+\game\EngineX\EXCollision.cpp	(m_NumBins > 0) && (Bin >= 0) && (Bin <= m_NumBins)
+\game\EngineX\EXStats.cpp	m_BinCounts
+\game\EngineX\EXStats.cpp	m_BinRanges
+\game\EngineX\EXStats.cpp	m_NumBins > 0
+\game\EngineX\EXGeoCommon.cpp	Sheet<m_SheetCount
+\game\EngineX\EXString.cpp	pFile
+\game\EngineX\EXFileSys.cpp	m_FileNameBuf
+\game\EngineX\EXFileSys.cpp	xsigFile
+\game\EngineX\EXFileSys.cpp	pSwizBuf
+\game\EngineX\EXPhysicsSoft.cpp	m_ParticleList
+\game\EngineX\EXPhysicsSoft.cpp	congraph
+\game\EngineX\EXPhysicsSoft.cpp	pSortPostData
+\game\EngineX\EXPhysicsSoft.cpp	pSortPreData
+\game\EngineX\EXPhysicsSoft.cpp	pSortNormalData
+\game\EngineX\EXPhysicsSoft.cpp	pNormalSort!=NULL
+\game\EngineX\EXPhysicsSoft.cpp	pGeoSwoosh->MaxSegments()>0
+\game\EngineX\EXSwoosh.cpp	m_bOptimised!=TRUE
+\game\EngineX\EXParticle.cpp	m_pEmitter
+\game\EngineX\EXParticle.cpp	pHeader
+\game\EngineX\EXRand.cpp	m_pDebugName
+\game\EngineX\EXCamera.cpp	bRet
+\game\EngineX\EXCamera.cpp	m_BlendModeData!=NULL
+\game\EngineX\EXCamera.cpp	m_TextureData!=NULL
+\game\EngineX\EXCamera.cpp	m_PolyData!=NULL
+\game\EngineX\EXCamera.cpp	pVert[i].Col.a<=128
+\game\EngineX\EXCamera.cpp	nVerts<=29
+\game\EngineX\EXCamera.cpp	strlen(Data.pMessage)<300
+\game\EngineX\EXStdFuncs.cpp	ch!='0'
+\game\EngineX\EXStdFuncs.cpp	FormatString
+\game\EngineX\EXStdFuncs.cpp	pBuffer
+\game\EngineX\EXGeoMap.cpp	MapClusters.Size() == (u32)m_Clusters.Size()
+\game\EngineX\EXGeoMap.cpp	m_pBuf
+\game\EngineX\EXFile.cpp	Index<(u32)m_SubBars.Size()
+\game\EngineX\EXDebugTreeWnd.cpp	pNewSegment
+\game\EngineX\EXGeoEntity.cpp	pTexData
+\game\EngineX\EXEffectsSys.cpp	m_pSkinData
+\game\EngineX\EXItemAnimator_ScriptControllers.cpp	Block<m_BlockCount
+\game\EngineX\EXTexture.cpp	m_Seq == m_AllocSeq
+\game\EngineX\EXScratchPad.cpp	!m_pAlloc
+\game\EngineX\EXScratchPad.cpp	!((u32)SizeBytes&0xf)
+\game\EngineX\EXScratchPad.cpp	!((u32)pTo&0xf)
+\game\EngineX\EXScratchPad.cpp	!((u32)pFrom&0xf)
+\game\EngineX\EXScratchPad.cpp	m_pLightBlock[b]
+\game\EngineX\EXLightManager.cpp	bValid
+\game\EngineX\EXLightManager.cpp	ArraySize
+\game\EngineX\EXLightManager.cpp	pArray
+\game\EngineX\EXArray.cpp	pGDi->pTextureRemap
+\game\EngineX\EXArray.cpp	pGDi->DataC
+\game\EngineX\EXArray.cpp	pGDi->DataB
+\game\EngineX\EXArray.cpp	pGDi->DataA
+\game\EngineX\EXArray.cpp	m_RGBABuffer
+\game\EngineX\EXArray.cpp	m_DeformerVertexBuffer
+\game\EngineX\EXArray.cpp	pNewSkinData
+\game\EngineX\EXArray.cpp	ms_pGDiSkinData==NULL
+\game\EngineX\EXArray.cpp	d > 0
+\game\EngineX\EXGeoParticle.cpp	pEntityHeader
+\game\EngineX\EXGeoParticle.cpp	pGeoHeader
+\game\EngineX\EXGeoParticle.cpp	pGeoFile
+\game\EngineX\EXGeoInstance.cpp	pPool->m_pData
+\game\EngineX\EXGeoInstance.cpp	pDestSurf!=NULL
+\game\EngineX\EXGeoInstance.cpp	m_pBackBufferTexture!=NULL
+\game\EngineX\EXGeoInstance.cpp	m_pAnimTextureResources
+\game\EngineX\EXGeoInstance.cpp	pMem
+\game\EngineX\EXParticleEmitter.cpp	m_pParticles==NULL
+\game\EngineX\EXParticleEmitter.cpp	m_pParticles
+\game\EngineX\EXParticleEmitter.cpp	pGeoParticle
+\game\EngineX\EXParticleEmitter.cpp	m_pClusters
+\game\enginex\EXCircularBuffer.h	nIndex<mCount
